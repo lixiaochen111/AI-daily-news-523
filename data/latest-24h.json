@@ -1,85 +1,85 @@
 {
-  "generated_at": "2026-05-25T02:32:11.175368Z",
+  "generated_at": "2026-05-26T02:12:22.301177Z",
   "window_hours": 24,
-  "total_items": 3,
-  "total_items_ai_raw": 3,
-  "total_items_raw": 1851,
-  "total_items_all_mode": 1761,
+  "total_items": 4,
+  "total_items_ai_raw": 4,
+  "total_items_raw": 3002,
+  "total_items_all_mode": 2854,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
-    "total": 3,
-    "tier_0": 0,
-    "tier_1": 3,
-    "tier_2": 0,
+    "total": 4,
+    "tier_0": 1,
+    "tier_1": 0,
+    "tier_2": 3,
     "blacklisted": 0,
-    "items_before_filter": 1851,
-    "items_after_filter": 3,
+    "items_before_filter": 2022,
+    "items_after_filter": 4,
     "filter_pass_rate": "0.2%"
   },
-  "archive_total": 7903,
+  "archive_total": 9987,
   "site_count": 14,
-  "source_count": 3,
+  "source_count": 4,
   "site_stats": [
     {
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "count": 2,
-      "raw_count": 134
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "count": 3,
+      "raw_count": 492
     },
     {
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
+      "site_id": "tophub",
+      "site_name": "TopHub",
       "count": 1,
-      "raw_count": 1
+      "raw_count": 1837
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "count": 0,
-      "raw_count": 74
-    },
-    {
-      "site_id": "tophub",
-      "site_name": "TopHub",
-      "count": 0,
-      "raw_count": 876
+      "raw_count": 136
     },
     {
       "site_id": "aibase",
       "site_name": "AIbase",
       "count": 0,
-      "raw_count": 19
+      "raw_count": 39
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "count": 0,
-      "raw_count": 254
-    },
-    {
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "count": 0,
-      "raw_count": 437
-    },
-    {
-      "site_id": "aihot",
-      "site_name": "AI HOT",
-      "count": 0,
-      "raw_count": 8
+      "raw_count": 284
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "count": 0,
-      "raw_count": 41
+      "raw_count": 50
+    },
+    {
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "count": 0,
+      "raw_count": 156
+    },
+    {
+      "site_id": "aihot",
+      "site_name": "AI HOT",
+      "count": 0,
+      "raw_count": 1
+    },
+    {
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "count": 0,
+      "raw_count": 1
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "count": 0,
-      "raw_count": 7
+      "raw_count": 6
     },
     {
       "site_id": "official_ai",
@@ -108,306 +108,232 @@
   ],
   "items": [
     {
-      "id": "7e4ba129599e478d48778a43e033952e1fde4a21",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "TechCrunch",
-      "title": "TechCrunch Mobility: Robotaxi reality check",
-      "url": "https://techcrunch.com/2026/05/24/techcrunch-mobility-robotaxi-reality-check",
-      "published_at": "2026-05-24T16:05:00Z",
-      "first_seen_at": "2026-05-25T02:32:11.175368Z",
-      "last_seen_at": "2026-05-25T02:32:11.175368Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "techcrunch",
-        "name": "TechCrunch",
-        "patterns": [
-          "techcrunch.com",
-          "TechCrunch"
-        ],
-        "reason": "创投科技媒体，需筛选AI创业、产品相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 30,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI创业",
-          "新产品发布",
-          "设计工具融资"
-        ],
-        "exclude_topics": [
-          "纯金融",
-          "加密货币",
-          "政策法规"
-        ],
-        "max_items_per_day": 30
-      },
-      "ai_design_relevance": 0.5,
+      "id": "27218c8bdce8a98fd3448ec86c0e39ca25c7a460",
+      "site_id": "tophub",
+      "site_name": "TopHub",
+      "source": "36氪 · 24小时热榜",
+      "title": "实测GPT For PPT：5分钟出稿质量堪忧，打工人“最后一公里”还得自己走",
+      "url": "https://www.36kr.com/p/3822723397771271",
+      "published_at": null,
+      "first_seen_at": "2026-05-26T02:12:22.301177Z",
+      "last_seen_at": "2026-05-26T02:12:22.301177Z",
+      "_tier": 2,
+      "ai_tier": 2,
+      "_source_config": {},
+      "ai_design_relevance": 0.6,
       "ai_quality_score": 7,
       "ai_categories": [
-        "Autonomous Vehicles",
-        "Mobility Tech",
-        "Industry Analysis"
+        "AI工具",
+        "演示设计",
+        "办公效率"
       ],
-      "ai_target_audience": "Tech industry professionals, mobility investors, and innovation enthusiasts tracking autonomous vehicle development and market reality.",
-      "ai_key_insights": "The article provides a grounded assessment of the robotaxi sector, contrasting ambitious promises with operational hurdles, regulatory landscapes, and current deployment limitations. It highlights recent industry pivots, safety concerns, and the gap between public perception and technological maturity, offering a timely reality check for stakeholders.",
-      "ai_recommendation": "本文剖析自动驾驶出租车从概念到落地的现实鸿沟，为设计师揭示了乘客交互、信任构建与应急体验中亟待解决的关键痛点。",
-      "title_original": "TechCrunch Mobility: Robotaxi reality check",
-      "title_en": "TechCrunch Mobility: Robotaxi reality check",
-      "title_zh": "TechCrunch Mobility：Robotaxi 现实检验",
-      "title_bilingual": "TechCrunch Mobility：Robotaxi 现实检验 / TechCrunch Mobility: Robotaxi reality check"
+      "ai_target_audience": "需要快速制作PPT的UI/UX设计师及职场人士，关注AI工具实效性的内容创作者",
+      "ai_key_insights": "GPT for PPT虽然能5分钟生成稿件，但视觉精度、逻辑梳理与专业感染力仍存短板，“最后一公里”的精细化设计必须由人完成，工具定位仍是辅助而非替代。",
+      "ai_recommendation": "实测揭示AI做PPT的真实能力与边界，值得被工具乐观情绪包围的设计师冷静参考。",
+      "title_original": "实测GPT For PPT：5分钟出稿质量堪忧，打工人“最后一公里”还得自己走",
+      "title_en": null,
+      "title_zh": "实测GPT For PPT：5分钟出稿质量堪忧，打工人“最后一公里”还得自己走",
+      "title_bilingual": "实测GPT For PPT：5分钟出稿质量堪忧，打工人“最后一公里”还得自己走"
     },
     {
-      "id": "6555d7948a17d56d12062c29b18a55a8caab5907",
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "source": "www.theverge.com",
-      "title": "Hackers are learning to exploit chatbot &#8216;personalities&#8217;",
-      "url": "https://www.theverge.com/column/935545/hackers-ai-chatbots",
-      "published_at": "2026-05-24T12:00:00Z",
-      "first_seen_at": "2026-05-25T02:32:11.175368Z",
-      "last_seen_at": "2026-05-25T02:32:11.175368Z",
-      "_tier": 1,
-      "ai_tier": 1,
+      "id": "57efaeaaea5de04cb9fe782eb7cea4d9b04f9c13",
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "community.obsidian.md",
+      "title": "Show HN: 支持多账户认证和双向同步的 Google 日历侧边栏 – Obsidian 插件",
+      "url": "https://community.obsidian.md/plugins/gcal-sidebar",
+      "published_at": "2026-05-25T20:30:51.732000Z",
+      "first_seen_at": "2026-05-26T02:12:22.301177Z",
+      "last_seen_at": "2026-05-26T02:12:22.301177Z",
+      "_tier": 0,
       "_source_config": {
-        "id": "the_verge",
-        "name": "The Verge",
+        "id": "sidebar",
+        "name": "Sidebar",
         "patterns": [
-          "theverge.com",
-          "The Verge"
+          "sidebar.io",
+          "Sidebar"
         ],
-        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 50,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI产品",
-          "设计工具",
-          "创意应用"
-        ],
-        "exclude_topics": [
-          "纯硬件评测",
-          "游戏",
-          "娱乐八卦"
-        ],
-        "max_items_per_day": 50
-      },
-      "ai_design_relevance": 0.7,
-      "ai_quality_score": 6,
-      "ai_categories": [
-        "AI",
-        "UX Design",
-        "Security"
-      ],
-      "ai_target_audience": "UX designers working on conversational interfaces, chatbot developers, AI product managers",
-      "ai_key_insights": "Chatbot personalities, while enhancing user engagement, can be exploited by hackers to manipulate responses and gain unauthorized access, underscoring the need for secure design principles in conversational AI.",
-      "ai_recommendation": "该文章揭示了聊天机器人人格设计中的安全隐患，对构建既亲切又安全的对话界面的设计师具有警示和启发意义。",
-      "title_original": "Hackers are learning to exploit chatbot &#8216;personalities&#8217;",
-      "title_en": "Hackers are learning to exploit chatbot &#8216;personalities&#8217;",
-      "title_zh": "黑客正在学习利用聊天机器人的“个性”",
-      "title_bilingual": "黑客正在学习利用聊天机器人的“个性” / Hackers are learning to exploit chatbot &#8216;personalities&#8217;"
-    },
-    {
-      "id": "51df9902a14789b8b105c42fa14ceeb82bb15e26",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "Wired",
-      "title": "Why Garlic Repels Mosquitoes and Keeps Them From Breeding",
-      "url": "https://www.wired.com/story/why-garlic-repels-mosquitoes-and-keeps-them-from-breeding",
-      "published_at": "2026-05-24T09:00:00Z",
-      "first_seen_at": "2026-05-25T02:32:11.175368Z",
-      "last_seen_at": "2026-05-25T02:32:11.175368Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "wired",
-        "name": "Wired",
-        "patterns": [
-          "wired.com",
-          "Wired"
-        ],
-        "reason": "科技文化媒体，需筛选AI+设计深度报道",
+        "reason": "每日5个最佳设计链接，人工筛选",
         "update_frequency": "daily",
-        "expected_items_per_day": 20,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI应用",
-          "设计趋势",
-          "创意科技"
-        ],
-        "exclude_topics": [
-          "纯政治",
-          "安全政策",
-          "科学理论"
-        ],
-        "max_items_per_day": 20
+        "expected_items_per_day": 1,
+        "language": "en"
       },
-      "ai_design_relevance": 0.2,
+      "ai_tier": 0,
+      "ai_must_publish": true,
+      "title_original": "Show HN: 支持多账户认证和双向同步的 Google 日历侧边栏 – Obsidian 插件",
+      "title_en": null,
+      "title_zh": "Show HN: 支持多账户认证和双向同步的 Google 日历侧边栏 – Obsidian 插件",
+      "title_bilingual": "Show HN: 支持多账户认证和双向同步的 Google 日历侧边栏 – Obsidian 插件"
+    },
+    {
+      "id": "1447b0d96ec6eb479b27f651b65577c0dbfb5516",
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "news.ycombinator.com",
+      "title": "配色方案暴露了AI的粗糙之处",
+      "url": "https://news.ycombinator.com/item?id=48269907",
+      "published_at": "2026-05-25T18:22:54.593000Z",
+      "first_seen_at": "2026-05-26T02:12:22.301177Z",
+      "last_seen_at": "2026-05-26T02:12:22.301177Z",
+      "_tier": 2,
+      "ai_tier": 2,
+      "_source_config": {},
+      "ai_design_relevance": 0.8,
       "ai_quality_score": 7,
       "ai_categories": [
-        "科学普及",
-        "生活技巧",
-        "自然防虫"
+        "AI设计工具",
+        "色彩理论与应用",
+        "设计批评"
       ],
-      "ai_target_audience": "关心健康生活、自然防蚊方法的普通大众，可能包括园艺爱好者或对家用小窍门感兴趣的读者。",
-      "ai_key_insights": "文章解释了大蒜中含有的蒜素等硫化合物能通过气味驱避蚊子，并抑制其幼虫繁殖，提供了基于化学原理的防蚊思路和实际应用建议。",
-      "ai_recommendation": "本文从科学角度解读蒜头的驱蚊机制，实用性高，但内容与UI/UX设计无直接关联，更适合生活方式类读者参考。",
-      "title_original": "Why Garlic Repels Mosquitoes and Keeps Them From Breeding",
-      "title_en": "Why Garlic Repels Mosquitoes and Keeps Them From Breeding",
-      "title_zh": "为什么大蒜可以驱除蚊子并防止它们繁殖",
-      "title_bilingual": "为什么大蒜可以驱除蚊子并防止它们繁殖 / Why Garlic Repels Mosquitoes and Keeps Them From Breeding"
+      "ai_target_audience": "关注AI设计能力的UI/UX设计师、产品经理、前端开发者",
+      "ai_key_insights": "AI生成的配色方案常忽略品牌语境、文化语义与可访问性，表面的和谐背后缺乏对设计意图的深层理解，暴露出当前生成式模型的细节粗糙。",
+      "ai_recommendation": "这篇文章直指AI设计工具的软肋，提醒设计师不要盲目信任生成结果，适合正在尝试AI辅助配色的人阅读反思。",
+      "title_original": "配色方案暴露了AI的粗糙之处",
+      "title_en": null,
+      "title_zh": "配色方案暴露了AI的粗糙之处",
+      "title_bilingual": "配色方案暴露了AI的粗糙之处"
+    },
+    {
+      "id": "56af82e1770fd3de889e44adc87a5e70208bb8f5",
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "www.businessinsider.com",
+      "title": "AI热潮背后的术语生存指南",
+      "url": "https://www.businessinsider.com/ai-terms-definitions-glossary",
+      "published_at": "2026-05-25T10:23:50.892000Z",
+      "first_seen_at": "2026-05-26T02:12:22.301177Z",
+      "last_seen_at": "2026-05-26T02:12:22.301177Z",
+      "_tier": 2,
+      "ai_tier": 2,
+      "_source_config": {},
+      "ai_design_relevance": 0.7,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "人工智能",
+        "设计协作"
+      ],
+      "ai_target_audience": "希望理解AI术语以更好地参与产品讨论的设计师和产品人员",
+      "ai_key_insights": "用清晰流畅的语言梳理了AI领域的核心概念，降低设计师的沟通门槛，使跨职能协作更高效。",
+      "ai_recommendation": "梳理AI术语能帮设计师听懂开发语言，避免误解需求，快速对齐产品方向。",
+      "title_original": "AI热潮背后的术语生存指南",
+      "title_en": null,
+      "title_zh": "AI热潮背后的术语生存指南",
+      "title_bilingual": "AI热潮背后的术语生存指南"
     }
   ],
   "items_ai": [
     {
-      "id": "7e4ba129599e478d48778a43e033952e1fde4a21",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "TechCrunch",
-      "title": "TechCrunch Mobility: Robotaxi reality check",
-      "url": "https://techcrunch.com/2026/05/24/techcrunch-mobility-robotaxi-reality-check",
-      "published_at": "2026-05-24T16:05:00Z",
-      "first_seen_at": "2026-05-25T02:32:11.175368Z",
-      "last_seen_at": "2026-05-25T02:32:11.175368Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "techcrunch",
-        "name": "TechCrunch",
-        "patterns": [
-          "techcrunch.com",
-          "TechCrunch"
-        ],
-        "reason": "创投科技媒体，需筛选AI创业、产品相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 30,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI创业",
-          "新产品发布",
-          "设计工具融资"
-        ],
-        "exclude_topics": [
-          "纯金融",
-          "加密货币",
-          "政策法规"
-        ],
-        "max_items_per_day": 30
-      },
-      "ai_design_relevance": 0.5,
+      "id": "27218c8bdce8a98fd3448ec86c0e39ca25c7a460",
+      "site_id": "tophub",
+      "site_name": "TopHub",
+      "source": "36氪 · 24小时热榜",
+      "title": "实测GPT For PPT：5分钟出稿质量堪忧，打工人“最后一公里”还得自己走",
+      "url": "https://www.36kr.com/p/3822723397771271",
+      "published_at": null,
+      "first_seen_at": "2026-05-26T02:12:22.301177Z",
+      "last_seen_at": "2026-05-26T02:12:22.301177Z",
+      "_tier": 2,
+      "ai_tier": 2,
+      "_source_config": {},
+      "ai_design_relevance": 0.6,
       "ai_quality_score": 7,
       "ai_categories": [
-        "Autonomous Vehicles",
-        "Mobility Tech",
-        "Industry Analysis"
+        "AI工具",
+        "演示设计",
+        "办公效率"
       ],
-      "ai_target_audience": "Tech industry professionals, mobility investors, and innovation enthusiasts tracking autonomous vehicle development and market reality.",
-      "ai_key_insights": "The article provides a grounded assessment of the robotaxi sector, contrasting ambitious promises with operational hurdles, regulatory landscapes, and current deployment limitations. It highlights recent industry pivots, safety concerns, and the gap between public perception and technological maturity, offering a timely reality check for stakeholders.",
-      "ai_recommendation": "本文剖析自动驾驶出租车从概念到落地的现实鸿沟，为设计师揭示了乘客交互、信任构建与应急体验中亟待解决的关键痛点。",
-      "title_original": "TechCrunch Mobility: Robotaxi reality check",
-      "title_en": "TechCrunch Mobility: Robotaxi reality check",
-      "title_zh": "TechCrunch Mobility：Robotaxi 现实检验",
-      "title_bilingual": "TechCrunch Mobility：Robotaxi 现实检验 / TechCrunch Mobility: Robotaxi reality check"
+      "ai_target_audience": "需要快速制作PPT的UI/UX设计师及职场人士，关注AI工具实效性的内容创作者",
+      "ai_key_insights": "GPT for PPT虽然能5分钟生成稿件，但视觉精度、逻辑梳理与专业感染力仍存短板，“最后一公里”的精细化设计必须由人完成，工具定位仍是辅助而非替代。",
+      "ai_recommendation": "实测揭示AI做PPT的真实能力与边界，值得被工具乐观情绪包围的设计师冷静参考。",
+      "title_original": "实测GPT For PPT：5分钟出稿质量堪忧，打工人“最后一公里”还得自己走",
+      "title_en": null,
+      "title_zh": "实测GPT For PPT：5分钟出稿质量堪忧，打工人“最后一公里”还得自己走",
+      "title_bilingual": "实测GPT For PPT：5分钟出稿质量堪忧，打工人“最后一公里”还得自己走"
     },
     {
-      "id": "6555d7948a17d56d12062c29b18a55a8caab5907",
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "source": "www.theverge.com",
-      "title": "Hackers are learning to exploit chatbot &#8216;personalities&#8217;",
-      "url": "https://www.theverge.com/column/935545/hackers-ai-chatbots",
-      "published_at": "2026-05-24T12:00:00Z",
-      "first_seen_at": "2026-05-25T02:32:11.175368Z",
-      "last_seen_at": "2026-05-25T02:32:11.175368Z",
-      "_tier": 1,
-      "ai_tier": 1,
+      "id": "57efaeaaea5de04cb9fe782eb7cea4d9b04f9c13",
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "community.obsidian.md",
+      "title": "Show HN: 支持多账户认证和双向同步的 Google 日历侧边栏 – Obsidian 插件",
+      "url": "https://community.obsidian.md/plugins/gcal-sidebar",
+      "published_at": "2026-05-25T20:30:51.732000Z",
+      "first_seen_at": "2026-05-26T02:12:22.301177Z",
+      "last_seen_at": "2026-05-26T02:12:22.301177Z",
+      "_tier": 0,
       "_source_config": {
-        "id": "the_verge",
-        "name": "The Verge",
+        "id": "sidebar",
+        "name": "Sidebar",
         "patterns": [
-          "theverge.com",
-          "The Verge"
+          "sidebar.io",
+          "Sidebar"
         ],
-        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 50,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI产品",
-          "设计工具",
-          "创意应用"
-        ],
-        "exclude_topics": [
-          "纯硬件评测",
-          "游戏",
-          "娱乐八卦"
-        ],
-        "max_items_per_day": 50
-      },
-      "ai_design_relevance": 0.7,
-      "ai_quality_score": 6,
-      "ai_categories": [
-        "AI",
-        "UX Design",
-        "Security"
-      ],
-      "ai_target_audience": "UX designers working on conversational interfaces, chatbot developers, AI product managers",
-      "ai_key_insights": "Chatbot personalities, while enhancing user engagement, can be exploited by hackers to manipulate responses and gain unauthorized access, underscoring the need for secure design principles in conversational AI.",
-      "ai_recommendation": "该文章揭示了聊天机器人人格设计中的安全隐患，对构建既亲切又安全的对话界面的设计师具有警示和启发意义。",
-      "title_original": "Hackers are learning to exploit chatbot &#8216;personalities&#8217;",
-      "title_en": "Hackers are learning to exploit chatbot &#8216;personalities&#8217;",
-      "title_zh": "黑客正在学习利用聊天机器人的“个性”",
-      "title_bilingual": "黑客正在学习利用聊天机器人的“个性” / Hackers are learning to exploit chatbot &#8216;personalities&#8217;"
-    },
-    {
-      "id": "51df9902a14789b8b105c42fa14ceeb82bb15e26",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "Wired",
-      "title": "Why Garlic Repels Mosquitoes and Keeps Them From Breeding",
-      "url": "https://www.wired.com/story/why-garlic-repels-mosquitoes-and-keeps-them-from-breeding",
-      "published_at": "2026-05-24T09:00:00Z",
-      "first_seen_at": "2026-05-25T02:32:11.175368Z",
-      "last_seen_at": "2026-05-25T02:32:11.175368Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "wired",
-        "name": "Wired",
-        "patterns": [
-          "wired.com",
-          "Wired"
-        ],
-        "reason": "科技文化媒体，需筛选AI+设计深度报道",
+        "reason": "每日5个最佳设计链接，人工筛选",
         "update_frequency": "daily",
-        "expected_items_per_day": 20,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI应用",
-          "设计趋势",
-          "创意科技"
-        ],
-        "exclude_topics": [
-          "纯政治",
-          "安全政策",
-          "科学理论"
-        ],
-        "max_items_per_day": 20
+        "expected_items_per_day": 1,
+        "language": "en"
       },
-      "ai_design_relevance": 0.2,
+      "ai_tier": 0,
+      "ai_must_publish": true,
+      "title_original": "Show HN: 支持多账户认证和双向同步的 Google 日历侧边栏 – Obsidian 插件",
+      "title_en": null,
+      "title_zh": "Show HN: 支持多账户认证和双向同步的 Google 日历侧边栏 – Obsidian 插件",
+      "title_bilingual": "Show HN: 支持多账户认证和双向同步的 Google 日历侧边栏 – Obsidian 插件"
+    },
+    {
+      "id": "1447b0d96ec6eb479b27f651b65577c0dbfb5516",
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "news.ycombinator.com",
+      "title": "配色方案暴露了AI的粗糙之处",
+      "url": "https://news.ycombinator.com/item?id=48269907",
+      "published_at": "2026-05-25T18:22:54.593000Z",
+      "first_seen_at": "2026-05-26T02:12:22.301177Z",
+      "last_seen_at": "2026-05-26T02:12:22.301177Z",
+      "_tier": 2,
+      "ai_tier": 2,
+      "_source_config": {},
+      "ai_design_relevance": 0.8,
       "ai_quality_score": 7,
       "ai_categories": [
-        "科学普及",
-        "生活技巧",
-        "自然防虫"
+        "AI设计工具",
+        "色彩理论与应用",
+        "设计批评"
       ],
-      "ai_target_audience": "关心健康生活、自然防蚊方法的普通大众，可能包括园艺爱好者或对家用小窍门感兴趣的读者。",
-      "ai_key_insights": "文章解释了大蒜中含有的蒜素等硫化合物能通过气味驱避蚊子，并抑制其幼虫繁殖，提供了基于化学原理的防蚊思路和实际应用建议。",
-      "ai_recommendation": "本文从科学角度解读蒜头的驱蚊机制，实用性高，但内容与UI/UX设计无直接关联，更适合生活方式类读者参考。",
-      "title_original": "Why Garlic Repels Mosquitoes and Keeps Them From Breeding",
-      "title_en": "Why Garlic Repels Mosquitoes and Keeps Them From Breeding",
-      "title_zh": "为什么大蒜可以驱除蚊子并防止它们繁殖",
-      "title_bilingual": "为什么大蒜可以驱除蚊子并防止它们繁殖 / Why Garlic Repels Mosquitoes and Keeps Them From Breeding"
+      "ai_target_audience": "关注AI设计能力的UI/UX设计师、产品经理、前端开发者",
+      "ai_key_insights": "AI生成的配色方案常忽略品牌语境、文化语义与可访问性，表面的和谐背后缺乏对设计意图的深层理解，暴露出当前生成式模型的细节粗糙。",
+      "ai_recommendation": "这篇文章直指AI设计工具的软肋，提醒设计师不要盲目信任生成结果，适合正在尝试AI辅助配色的人阅读反思。",
+      "title_original": "配色方案暴露了AI的粗糙之处",
+      "title_en": null,
+      "title_zh": "配色方案暴露了AI的粗糙之处",
+      "title_bilingual": "配色方案暴露了AI的粗糙之处"
+    },
+    {
+      "id": "56af82e1770fd3de889e44adc87a5e70208bb8f5",
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "www.businessinsider.com",
+      "title": "AI热潮背后的术语生存指南",
+      "url": "https://www.businessinsider.com/ai-terms-definitions-glossary",
+      "published_at": "2026-05-25T10:23:50.892000Z",
+      "first_seen_at": "2026-05-26T02:12:22.301177Z",
+      "last_seen_at": "2026-05-26T02:12:22.301177Z",
+      "_tier": 2,
+      "ai_tier": 2,
+      "_source_config": {},
+      "ai_design_relevance": 0.7,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "人工智能",
+        "设计协作"
+      ],
+      "ai_target_audience": "希望理解AI术语以更好地参与产品讨论的设计师和产品人员",
+      "ai_key_insights": "用清晰流畅的语言梳理了AI领域的核心概念，降低设计师的沟通门槛，使跨职能协作更高效。",
+      "ai_recommendation": "梳理AI术语能帮设计师听懂开发语言，避免误解需求，快速对齐产品方向。",
+      "title_original": "AI热潮背后的术语生存指南",
+      "title_en": null,
+      "title_zh": "AI热潮背后的术语生存指南",
+      "title_bilingual": "AI热潮背后的术语生存指南"
     }
   ],
   "all_mode_data_url": "data/latest-24h-all.json"
