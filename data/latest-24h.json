@@ -1,73 +1,61 @@
 {
-  "generated_at": "2026-05-27T02:31:36.009261Z",
+  "generated_at": "2026-05-28T02:07:12.434903Z",
   "window_hours": 24,
-  "total_items": 9,
-  "total_items_ai_raw": 9,
-  "total_items_raw": 2196,
-  "total_items_all_mode": 2084,
+  "total_items": 4,
+  "total_items_ai_raw": 4,
+  "total_items_raw": 3307,
+  "total_items_all_mode": 3139,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
-    "total": 9,
+    "total": 4,
     "tier_0": 0,
-    "tier_1": 7,
-    "tier_2": 2,
+    "tier_1": 3,
+    "tier_2": 1,
     "blacklisted": 0,
-    "items_before_filter": 2196,
-    "items_after_filter": 9,
-    "filter_pass_rate": "0.4%"
+    "items_before_filter": 2244,
+    "items_after_filter": 4,
+    "filter_pass_rate": "0.2%"
   },
-  "archive_total": 12226,
+  "archive_total": 14513,
   "site_count": 14,
-  "source_count": 8,
+  "source_count": 4,
   "site_stats": [
+    {
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "count": 1,
+      "raw_count": 569
+    },
     {
       "site_id": "techurls",
       "site_name": "TechURLs",
-      "count": 3,
+      "count": 1,
       "raw_count": 223
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "count": 1,
-      "raw_count": 987
+      "raw_count": 1976
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "count": 1,
-      "raw_count": 70
-    },
-    {
-      "site_id": "iris",
-      "site_name": "Info Flow",
-      "count": 1,
-      "raw_count": 278
-    },
-    {
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "count": 1,
-      "raw_count": 522
-    },
-    {
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "count": 1,
-      "raw_count": 5
-    },
-    {
-      "site_id": "aihot",
-      "site_name": "AI HOT",
-      "count": 1,
-      "raw_count": 29
+      "raw_count": 84
     },
     {
       "site_id": "aibase",
       "site_name": "AIbase",
       "count": 0,
-      "raw_count": 20
+      "raw_count": 40
+    },
+    {
+      "site_id": "iris",
+      "site_name": "Info Flow",
+      "count": 0,
+      "raw_count": 317
     },
     {
       "site_id": "zeli",
@@ -76,16 +64,28 @@
       "raw_count": 50
     },
     {
+      "site_id": "aihot",
+      "site_name": "AI HOT",
+      "count": 0,
+      "raw_count": 30
+    },
+    {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "count": 0,
-      "raw_count": 7
+      "raw_count": 3
+    },
+    {
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "count": 0,
+      "raw_count": 6
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "count": 0,
-      "raw_count": 5
+      "raw_count": 9
     },
     {
       "site_id": "aibreakfast",
@@ -108,6 +108,106 @@
   ],
   "items": [
     {
+      "id": "ded79d216880bf5cde8b7021708d68a60b096288",
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "techcrunch.com",
+      "title": "科技公司CEO们显然正饱受人工智能妄想症的困扰",
+      "url": "https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis",
+      "published_at": "2026-05-27T17:17:49.317000Z",
+      "first_seen_at": "2026-05-28T02:07:12.434903Z",
+      "last_seen_at": "2026-05-28T02:07:12.434903Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "techcrunch",
+        "name": "TechCrunch",
+        "patterns": [
+          "techcrunch.com",
+          "TechCrunch"
+        ],
+        "reason": "创投科技媒体，需筛选AI创业、产品相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 30,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI创业",
+          "新产品发布",
+          "设计工具融资"
+        ],
+        "exclude_topics": [
+          "纯金融",
+          "加密货币",
+          "政策法规"
+        ],
+        "max_items_per_day": 30
+      },
+      "ai_design_relevance": 0.7,
+      "ai_quality_score": 6,
+      "ai_categories": [
+        "人工智能",
+        "产品思维",
+        "批判性分析"
+      ],
+      "ai_target_audience": "关注AI产品落地的UI/UX设计师、产品经理及对科技行业虚火保持警惕的从业者",
+      "ai_key_insights": "文章揭示部分科技公司CEO对AI能力的过度幻想，导致产品设计脱离用户真实需求，提醒设计师警惕高层盲目跟风，回归以人为本的体验设计。",
+      "ai_recommendation": "用真实案例警示AI设计中的妄想症，帮助设计师在狂热中保持清醒，聚焦务实体验。",
+      "title_original": "科技公司CEO们显然正饱受人工智能妄想症的困扰",
+      "title_en": null,
+      "title_zh": "科技公司CEO们显然正饱受人工智能妄想症的困扰",
+      "title_bilingual": "科技公司CEO们显然正饱受人工智能妄想症的困扰"
+    },
+    {
+      "id": "679d53333bc68edcaf07359e2a51ffa920dc7492",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "TechCrunch",
+      "title": "Spotify now lets you ‘clip’ moments from your favorite podcast",
+      "url": "https://techcrunch.com/2026/05/27/spotify-now-lets-you-clip-moments-from-your-favorite-podcast",
+      "published_at": "2026-05-27T14:05:37Z",
+      "first_seen_at": "2026-05-28T02:07:12.434903Z",
+      "last_seen_at": "2026-05-28T02:07:12.434903Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "techcrunch",
+        "name": "TechCrunch",
+        "patterns": [
+          "techcrunch.com",
+          "TechCrunch"
+        ],
+        "reason": "创投科技媒体，需筛选AI创业、产品相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 30,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI创业",
+          "新产品发布",
+          "设计工具融资"
+        ],
+        "exclude_topics": [
+          "纯金融",
+          "加密货币",
+          "政策法规"
+        ],
+        "max_items_per_day": 30
+      },
+      "ai_design_relevance": 0.9,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "Interaction Design",
+        "Audio UX",
+        "Product Design"
+      ],
+      "ai_target_audience": "UI/UX designers and product managers working on content-sharing features, audio players, or social media integrations",
+      "ai_key_insights": "Spotify's new clip feature lets users save and share podcast snippets, highlighting interaction patterns around audio waveform selection, preview, and social sharing. The design balances simplicity with powerful sharing options, offering lessons in micro-interaction design, accessibility, and catering to short-form consumption trends.",
+      "ai_recommendation": "深入剖析了音频片段截取与分享的交互细节，为设计师提供了声音界面与社交功能融合的实战参考，极具启发性。",
+      "title_original": "Spotify now lets you ‘clip’ moments from your favorite podcast",
+      "title_en": "Spotify now lets you ‘clip’ moments from your favorite podcast",
+      "title_zh": "Spotify 现在可以让您从您最喜爱的播客中“剪辑”精彩瞬间",
+      "title_bilingual": "Spotify 现在可以让您从您最喜爱的播客中“剪辑”精彩瞬间 / Spotify now lets you ‘clip’ moments from your favorite podcast"
+    },
+    {
       "id": "83835d862be5bee787b7b6436067c0c0b3e704c9",
       "site_id": "tophub",
       "site_name": "TopHub",
@@ -116,37 +216,8 @@
       "url": "https://www.uisdc.com/claude-design-2",
       "published_at": null,
       "first_seen_at": "2026-05-27T02:31:36.009261Z",
-      "last_seen_at": "2026-05-27T02:31:36.009261Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "uisdc",
-        "name": "优设网",
-        "patterns": [
-          "uisdc.com",
-          "优设网"
-        ],
-        "reason": "设计师学习平台，内容多，需AI筛选高质量",
-        "update_frequency": "daily",
-        "expected_items_per_day": 2,
-        "language": "zh",
-        "ai_filter_focus": [
-          "AI设计教程",
-          "工具实测",
-          "设计案例"
-        ],
-        "max_items_per_day": 3
-      },
-      "ai_design_relevance": 0.9,
-      "ai_quality_score": 8,
-      "ai_categories": [
-        "AI设计规范",
-        "UI/UX设计",
-        "设计系统"
-      ],
-      "ai_target_audience": "UI/UX设计师、产品设计师、关注AI产品界面设计的前端开发者",
-      "ai_key_insights": "文章从Claude Design官方规范中提炼出7条可直接应用于AI+UI界面设计的核心原则，涵盖布局、交互、反馈等层面，帮助设计师系统性提升AI产品界面的易用性与美观度。",
-      "ai_recommendation": "将前沿AI设计规范转化为具体可落地的界面策略，是AI时代设计师的实用参考指南。",
+      "last_seen_at": "2026-05-28T02:07:12.434903Z",
+      "ai_filtered": true,
       "title_original": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！",
       "title_en": null,
       "title_zh": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！",
@@ -161,378 +232,116 @@
       "url": "https://juejin.cn/post/7643033880698421300",
       "published_at": "2026-05-27T02:07:56.484000Z",
       "first_seen_at": "2026-05-27T02:31:36.009261Z",
-      "last_seen_at": "2026-05-27T02:31:36.009261Z",
-      "_tier": 2,
-      "ai_tier": 2,
-      "_source_config": {
-        "id": "figma_official",
-        "name": "Figma Blog",
-        "patterns": [
-          "figma.com/blog",
-          "Figma"
-        ],
-        "reason": "官方博客内容广，只要新功能发布和AI相关教程",
-        "update_frequency": "weekly",
-        "expected_items_per_day": 0.3,
-        "language": "en",
-        "filter_focus": [
-          "新功能发布",
-          "AI功能",
-          "产品更新",
-          "Config大会"
-        ],
-        "exclude_topics": [
-          "招聘",
-          "公司文化",
-          "用户故事"
-        ],
-        "max_items_per_day": 2
-      },
-      "ai_design_relevance": 0.9,
-      "ai_quality_score": 8,
-      "ai_categories": [
-        "AI辅助设计",
-        "设计到代码"
-      ],
-      "ai_target_audience": "关注设计交付效率与一致性的UI/UX设计师和前端开发者",
-      "ai_key_insights": "通过AI自动校验和生成，将Figma设计稿转化为可验证的客户端UI产物，重构了传统走查交付链路，显著提升协作效率与还原度。",
-      "ai_recommendation": "系统化地展示了用AI弥合设计走查与代码交付鸿沟的实战方案，对提升UI还原效率极具参考价值。",
+      "last_seen_at": "2026-05-28T02:07:12.434903Z",
+      "ai_filtered": true,
       "title_original": "从 Figma 走查到 AI 可验证产物：我如何重构客户端 UI 交付链路",
       "title_en": null,
       "title_zh": "从 Figma 走查到 AI 可验证产物：我如何重构客户端 UI 交付链路",
       "title_bilingual": "从 Figma 走查到 AI 可验证产物：我如何重构客户端 UI 交付链路"
-    },
-    {
-      "id": "04b2fcccf4dfc7d532d294d224d8e6ad5e67ecb9",
-      "site_id": "iris",
-      "site_name": "Info Flow",
-      "source": "IT之家 (ITHome)",
-      "title": "新一代华为鸿蒙智家官宣 6 月 1 日发布，主打“全生态 AI 进化”",
-      "url": "https://www.ithome.com/0/955/690.htm",
-      "published_at": "2026-05-27T01:48:49Z",
-      "first_seen_at": "2026-05-27T02:31:36.009261Z",
-      "last_seen_at": "2026-05-27T02:31:36.009261Z",
-      "_tier": 2,
-      "ai_tier": 2,
-      "_source_config": {},
-      "ai_design_relevance": 0.7,
-      "ai_quality_score": 5,
-      "ai_categories": [
-        "智能家居",
-        "AI交互",
-        "系统体验设计"
-      ],
-      "ai_target_audience": "关注华为生态与智能家居体验的UX/UI设计师、产品经理及技术爱好者",
-      "ai_key_insights": "华为鸿蒙智家强调“全生态AI进化”，预示系统层级的主动智能与跨设备无缝协同，可能带来交互范式革新，但发布前具体设计细节有限。",
-      "ai_recommendation": "华为鸿蒙最新AI家居系统官宣，是观察意图驱动交互与全场景设计落地的窗口，值得设计师关注。",
-      "title_original": "新一代华为鸿蒙智家官宣 6 月 1 日发布，主打“全生态 AI 进化”",
-      "title_en": null,
-      "title_zh": "新一代华为鸿蒙智家官宣 6 月 1 日发布，主打“全生态 AI 进化”",
-      "title_bilingual": "新一代华为鸿蒙智家官宣 6 月 1 日发布，主打“全生态 AI 进化”"
-    },
-    {
-      "id": "16a0011f74ee3ab14ee2565e0178007459bef0c9",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "Techmeme",
-      "title": "Q&A with Sundar Pichai about reshaping the information ecosystem with Search changes, putting AI agents in everything, when AI will replace him as CEO, and more (Nilay Patel/The Verge)",
-      "url": "https://www.techmeme.com/260526/p27",
-      "published_at": "2026-05-26T18:30:00Z",
-      "first_seen_at": "2026-05-27T02:31:36.009261Z",
-      "last_seen_at": "2026-05-27T02:31:36.009261Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "the_verge",
-        "name": "The Verge",
-        "patterns": [
-          "theverge.com",
-          "The Verge"
-        ],
-        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 50,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI产品",
-          "设计工具",
-          "创意应用"
-        ],
-        "exclude_topics": [
-          "纯硬件评测",
-          "游戏",
-          "娱乐八卦"
-        ],
-        "max_items_per_day": 50
-      },
-      "ai_design_relevance": 0.8,
-      "ai_quality_score": 8,
-      "ai_categories": [
-        "AI Agents",
-        "Search UX",
-        "Information Ecosystem"
-      ],
-      "ai_target_audience": "UI/UX designers, product managers, and design strategists exploring the future of AI-driven interfaces and search interactions",
-      "ai_key_insights": "Sundar Pichai outlines Google's move toward proactive AI agents that deeply integrate search into daily tasks, hinting at a shift from reactive query-response interfaces to anticipatory, conversational, and ambient experiences that will demand new thinking in interaction design, cross-platform consistency, and trust-building within user flows.",
-      "ai_recommendation": "从Google CEO的视角洞察AI代理与搜索变革趋势，为设计师在打造下一代智能交互与信息体验时提供关键战略方向。",
-      "title_original": "Q&A with Sundar Pichai about reshaping the information ecosystem with Search changes, putting AI agents in everything, when AI will replace him as CEO, and more (Nilay Patel/The Verge)",
-      "title_en": "Q&A with Sundar Pichai about reshaping the information ecosystem with Search changes, putting AI agents in everything, when AI will replace him as CEO, and more (Nilay Patel/The Verge)",
-      "title_zh": "与桑达尔·皮查伊 (Sundar Pichai) 的问答，内容涉及通过搜索变化重塑信息生态系统、将人工智能代理融入到一切事物中、人工智能何时将取代他担任首席执行官等等（Nilay Patel/The Verge）",
-      "title_bilingual": "与桑达尔·皮查伊 (Sundar Pichai) 的问答，内容涉及通过搜索变化重塑信息生态系统、将人工智能代理融入到一切事物中、人工智能何时将取代他担任首席执行官等等（Nilay Patel/The Verge） / Q&A with Sundar Pichai about reshaping the information ecosystem with Search changes, putting AI agents in everything, when AI will replace him as CEO, and more (Nilay Patel/The Verge)"
-    },
-    {
-      "id": "af529aa39ef658c40714c96f4992c21c1bf2377b",
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "www.theverge.com",
-      "title": "优步总裁表示，人工智能方面的支出“越来越难以自圆其说”",
-      "url": "https://www.theverge.com/transportation/937116/uber-ai-investment-hard-to-justify",
-      "published_at": "2026-05-26T15:09:52.248000Z",
-      "first_seen_at": "2026-05-27T02:31:36.009261Z",
-      "last_seen_at": "2026-05-27T02:31:36.009261Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "the_verge",
-        "name": "The Verge",
-        "patterns": [
-          "theverge.com",
-          "The Verge"
-        ],
-        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 50,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI产品",
-          "设计工具",
-          "创意应用"
-        ],
-        "exclude_topics": [
-          "纯硬件评测",
-          "游戏",
-          "娱乐八卦"
-        ],
-        "max_items_per_day": 50
-      },
-      "ai_design_relevance": 0.2,
-      "ai_quality_score": 7,
-      "ai_categories": [
-        "科技商业",
-        "人工智能"
-      ],
-      "ai_target_audience": "科技行业决策者、产品经理、投资人及对AI商业变现感兴趣的设计师",
-      "ai_key_insights": "优步总裁对AI领域的高额支出提出质疑，认为其投资回报难以论证，折射出行业对AI泡沫的冷静反思，强调商业落地与实际价值验证的重要性。",
-      "ai_recommendation": "从商业视角反思AI投入，启发设计师关注工具的实际产出与成本效益，避免盲目追求技术热潮。",
-      "title_original": "优步总裁表示，人工智能方面的支出“越来越难以自圆其说”",
-      "title_en": null,
-      "title_zh": "优步总裁表示，人工智能方面的支出“越来越难以自圆其说”",
-      "title_bilingual": "优步总裁表示，人工智能方面的支出“越来越难以自圆其说”"
-    },
-    {
-      "id": "a43d3f97d1b1ecc78a97edcc0d5dfde6d003108e",
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "source": "www.theverge.com",
-      "title": "Sundar Pichai on AI, the future of search, and what’s happening to the web",
-      "url": "https://www.theverge.com/podcast/936445/sundar-pichai-ai-search-google-zero-youtube-web",
-      "published_at": "2026-05-26T14:00:00Z",
-      "first_seen_at": "2026-05-27T02:31:36.009261Z",
-      "last_seen_at": "2026-05-27T02:31:36.009261Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "the_verge",
-        "name": "The Verge",
-        "patterns": [
-          "theverge.com",
-          "The Verge"
-        ],
-        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 50,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI产品",
-          "设计工具",
-          "创意应用"
-        ],
-        "exclude_topics": [
-          "纯硬件评测",
-          "游戏",
-          "娱乐八卦"
-        ],
-        "max_items_per_day": 50
-      },
-      "ai_design_relevance": 0.9,
-      "ai_quality_score": 8,
-      "ai_categories": [
-        "AI",
-        "Search UX",
-        "Web Design",
-        "Technology Trends"
-      ],
-      "ai_target_audience": "UI/UX designers, product managers, tech strategists, and anyone interested in the intersection of AI and user experience",
-      "ai_key_insights": "Google CEO Sundar Pichai discusses how generative AI is transforming search into a conversational, context-aware experience, the shift from link-based results to direct answers, and the implications for web navigation and content design",
-      "ai_recommendation": "深入探讨AI如何重塑搜索交互与网页信息架构，是把握未来体验设计方向的必读内容。",
-      "title_original": "Sundar Pichai on AI, the future of search, and what’s happening to the web",
-      "title_en": "Sundar Pichai on AI, the future of search, and what’s happening to the web",
-      "title_zh": "Sundar Pichai 谈 AI、搜索的未来及网络的变化",
-      "title_bilingual": "Sundar Pichai 谈 AI、搜索的未来及网络的变化 / Sundar Pichai on AI, the future of search, and what’s happening to the web"
-    },
-    {
-      "id": "4b6723850d73bdbaa5ab4f14cbdd310d7e883567",
-      "site_id": "aihot",
-      "site_name": "AI HOT",
-      "source": "The Verge：AI（RSS）",
-      "title": "Sundar Pichai 谈 AI、搜索的未来及网络的变化",
-      "url": "https://www.theverge.com/podcast/936445/sundar-pichai-ai-search-google-zero-youtube-web",
-      "published_at": "2026-05-26T14:00:00Z",
-      "first_seen_at": "2026-05-27T02:31:36.009261Z",
-      "last_seen_at": "2026-05-27T02:31:36.009261Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "the_verge",
-        "name": "The Verge",
-        "patterns": [
-          "theverge.com",
-          "The Verge"
-        ],
-        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 50,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI产品",
-          "设计工具",
-          "创意应用"
-        ],
-        "exclude_topics": [
-          "纯硬件评测",
-          "游戏",
-          "娱乐八卦"
-        ],
-        "max_items_per_day": 50
-      },
-      "ai_design_relevance": 0.6,
-      "ai_quality_score": 7,
-      "ai_categories": [
-        "人工智能",
-        "搜索与发现",
-        "科技趋势"
-      ],
-      "ai_target_audience": "关注AI与搜索演进的UI/UX设计师、产品经理及科技爱好者",
-      "ai_key_insights": "Sundar Pichai分享其对AI重塑搜索体验和网络生态的看法，涉及生成式AI对信息检索、内容呈现及用户界面的影响，为设计适应AI时代的交互模式提供战略视角。",
-      "ai_recommendation": "从谷歌CEO视角预判AI搜索变革，助设计师把握交互范式转型方向。",
-      "title_original": "Sundar Pichai 谈 AI、搜索的未来及网络的变化",
-      "title_en": null,
-      "title_zh": "Sundar Pichai 谈 AI、搜索的未来及网络的变化",
-      "title_bilingual": "Sundar Pichai 谈 AI、搜索的未来及网络的变化"
-    },
-    {
-      "id": "2f0eb5f66dca24c06fa0335e15916b1eb45ba25c",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "Wired",
-      "title": "Google Fitbit Air Review: Barely There, Always Running",
-      "url": "https://www.wired.com/review/google-fitbit-air",
-      "published_at": "2026-05-26T13:00:00Z",
-      "first_seen_at": "2026-05-27T02:31:36.009261Z",
-      "last_seen_at": "2026-05-27T02:31:36.009261Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "wired",
-        "name": "Wired",
-        "patterns": [
-          "wired.com",
-          "Wired"
-        ],
-        "reason": "科技文化媒体，需筛选AI+设计深度报道",
-        "update_frequency": "daily",
-        "expected_items_per_day": 20,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI应用",
-          "设计趋势",
-          "创意科技"
-        ],
-        "exclude_topics": [
-          "纯政治",
-          "安全政策",
-          "科学理论"
-        ],
-        "max_items_per_day": 20
-      },
-      "ai_design_relevance": 0.8,
-      "ai_quality_score": 7,
-      "ai_categories": [
-        "UI/UX设计",
-        "产品评测",
-        "可穿戴技术"
-      ],
-      "ai_target_audience": "关注智能硬件体验的UI/UX设计师、产品经理及科技爱好者",
-      "ai_key_insights": "极简硬件形态与无感佩戴体验的平衡拆解；持续后台监测对用户行为改变的潜力与隐私考量；配套App界面信息架构与健康数据可视化的设计得失。",
-      "ai_recommendation": "通过轻量化穿戴设备与持续健康监测的交互设计实例，为设计师揭示了极简终端与复杂数据呈现之间的平衡策略。",
-      "title_original": "Google Fitbit Air Review: Barely There, Always Running",
-      "title_en": "Google Fitbit Air Review: Barely There, Always Running",
-      "title_zh": "谷歌 Fitbit Air 评测：几乎不存在，始终在运行",
-      "title_bilingual": "谷歌 Fitbit Air 评测：几乎不存在，始终在运行 / Google Fitbit Air Review: Barely There, Always Running"
-    },
-    {
-      "id": "981e96529619b2e3184e5ae60aaa5cc5625ef2d0",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "Wired",
-      "title": "I’m a Professional Fact-Checker. AI Is Wrong More Often Than You Think",
-      "url": "https://www.wired.com/story/fact-checking-ai",
-      "published_at": "2026-05-26T10:00:00Z",
-      "first_seen_at": "2026-05-27T02:31:36.009261Z",
-      "last_seen_at": "2026-05-27T02:31:36.009261Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "wired",
-        "name": "Wired",
-        "patterns": [
-          "wired.com",
-          "Wired"
-        ],
-        "reason": "科技文化媒体，需筛选AI+设计深度报道",
-        "update_frequency": "daily",
-        "expected_items_per_day": 20,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI应用",
-          "设计趋势",
-          "创意科技"
-        ],
-        "exclude_topics": [
-          "纯政治",
-          "安全政策",
-          "科学理论"
-        ],
-        "max_items_per_day": 20
-      },
-      "ai_design_relevance": 0.8,
-      "ai_quality_score": 8,
-      "ai_categories": [
-        "AI & Design Ethics",
-        "Content Design",
-        "UX Research & Validation"
-      ],
-      "ai_target_audience": "UI/UX designers, content strategists, and product designers who integrate AI-generated content or conversational interfaces into user experiences",
-      "ai_key_insights": "AI confidently generates plausible-sounding but factually incorrect information (hallucinations), posing serious trust and usability risks in user-facing interfaces; designers must build verification cues, disclaimer patterns, and failure-handling flows to mitigate misinformation spread.",
-      "ai_recommendation": "所有将AI内容嵌入界面的设计师都应阅读——它揭示了「可信性错觉」如何摧毁用户体验，并提供了设计验证护栏的关键思路。",
-      "title_original": "I’m a Professional Fact-Checker. AI Is Wrong More Often Than You Think",
-      "title_en": "I’m a Professional Fact-Checker. AI Is Wrong More Often Than You Think",
-      "title_zh": "我是一名专业的事实核查员。人工智能出错的次数比你想象的要多",
-      "title_bilingual": "我是一名专业的事实核查员。人工智能出错的次数比你想象的要多 / I’m a Professional Fact-Checker. AI Is Wrong More Often Than You Think"
     }
   ],
   "items_ai": [
     {
+      "id": "ded79d216880bf5cde8b7021708d68a60b096288",
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "source": "techcrunch.com",
+      "title": "科技公司CEO们显然正饱受人工智能妄想症的困扰",
+      "url": "https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis",
+      "published_at": "2026-05-27T17:17:49.317000Z",
+      "first_seen_at": "2026-05-28T02:07:12.434903Z",
+      "last_seen_at": "2026-05-28T02:07:12.434903Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "techcrunch",
+        "name": "TechCrunch",
+        "patterns": [
+          "techcrunch.com",
+          "TechCrunch"
+        ],
+        "reason": "创投科技媒体，需筛选AI创业、产品相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 30,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI创业",
+          "新产品发布",
+          "设计工具融资"
+        ],
+        "exclude_topics": [
+          "纯金融",
+          "加密货币",
+          "政策法规"
+        ],
+        "max_items_per_day": 30
+      },
+      "ai_design_relevance": 0.7,
+      "ai_quality_score": 6,
+      "ai_categories": [
+        "人工智能",
+        "产品思维",
+        "批判性分析"
+      ],
+      "ai_target_audience": "关注AI产品落地的UI/UX设计师、产品经理及对科技行业虚火保持警惕的从业者",
+      "ai_key_insights": "文章揭示部分科技公司CEO对AI能力的过度幻想，导致产品设计脱离用户真实需求，提醒设计师警惕高层盲目跟风，回归以人为本的体验设计。",
+      "ai_recommendation": "用真实案例警示AI设计中的妄想症，帮助设计师在狂热中保持清醒，聚焦务实体验。",
+      "title_original": "科技公司CEO们显然正饱受人工智能妄想症的困扰",
+      "title_en": null,
+      "title_zh": "科技公司CEO们显然正饱受人工智能妄想症的困扰",
+      "title_bilingual": "科技公司CEO们显然正饱受人工智能妄想症的困扰"
+    },
+    {
+      "id": "679d53333bc68edcaf07359e2a51ffa920dc7492",
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "source": "TechCrunch",
+      "title": "Spotify now lets you ‘clip’ moments from your favorite podcast",
+      "url": "https://techcrunch.com/2026/05/27/spotify-now-lets-you-clip-moments-from-your-favorite-podcast",
+      "published_at": "2026-05-27T14:05:37Z",
+      "first_seen_at": "2026-05-28T02:07:12.434903Z",
+      "last_seen_at": "2026-05-28T02:07:12.434903Z",
+      "_tier": 1,
+      "ai_tier": 1,
+      "_source_config": {
+        "id": "techcrunch",
+        "name": "TechCrunch",
+        "patterns": [
+          "techcrunch.com",
+          "TechCrunch"
+        ],
+        "reason": "创投科技媒体，需筛选AI创业、产品相关",
+        "update_frequency": "hourly",
+        "expected_items_per_day": 30,
+        "language": "en",
+        "ai_filter_focus": [
+          "AI创业",
+          "新产品发布",
+          "设计工具融资"
+        ],
+        "exclude_topics": [
+          "纯金融",
+          "加密货币",
+          "政策法规"
+        ],
+        "max_items_per_day": 30
+      },
+      "ai_design_relevance": 0.9,
+      "ai_quality_score": 7,
+      "ai_categories": [
+        "Interaction Design",
+        "Audio UX",
+        "Product Design"
+      ],
+      "ai_target_audience": "UI/UX designers and product managers working on content-sharing features, audio players, or social media integrations",
+      "ai_key_insights": "Spotify's new clip feature lets users save and share podcast snippets, highlighting interaction patterns around audio waveform selection, preview, and social sharing. The design balances simplicity with powerful sharing options, offering lessons in micro-interaction design, accessibility, and catering to short-form consumption trends.",
+      "ai_recommendation": "深入剖析了音频片段截取与分享的交互细节，为设计师提供了声音界面与社交功能融合的实战参考，极具启发性。",
+      "title_original": "Spotify now lets you ‘clip’ moments from your favorite podcast",
+      "title_en": "Spotify now lets you ‘clip’ moments from your favorite podcast",
+      "title_zh": "Spotify 现在可以让您从您最喜爱的播客中“剪辑”精彩瞬间",
+      "title_bilingual": "Spotify 现在可以让您从您最喜爱的播客中“剪辑”精彩瞬间 / Spotify now lets you ‘clip’ moments from your favorite podcast"
+    },
+    {
       "id": "83835d862be5bee787b7b6436067c0c0b3e704c9",
       "site_id": "tophub",
       "site_name": "TopHub",
@@ -541,37 +350,8 @@
       "url": "https://www.uisdc.com/claude-design-2",
       "published_at": null,
       "first_seen_at": "2026-05-27T02:31:36.009261Z",
-      "last_seen_at": "2026-05-27T02:31:36.009261Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "uisdc",
-        "name": "优设网",
-        "patterns": [
-          "uisdc.com",
-          "优设网"
-        ],
-        "reason": "设计师学习平台，内容多，需AI筛选高质量",
-        "update_frequency": "daily",
-        "expected_items_per_day": 2,
-        "language": "zh",
-        "ai_filter_focus": [
-          "AI设计教程",
-          "工具实测",
-          "设计案例"
-        ],
-        "max_items_per_day": 3
-      },
-      "ai_design_relevance": 0.9,
-      "ai_quality_score": 8,
-      "ai_categories": [
-        "AI设计规范",
-        "UI/UX设计",
-        "设计系统"
-      ],
-      "ai_target_audience": "UI/UX设计师、产品设计师、关注AI产品界面设计的前端开发者",
-      "ai_key_insights": "文章从Claude Design官方规范中提炼出7条可直接应用于AI+UI界面设计的核心原则，涵盖布局、交互、反馈等层面，帮助设计师系统性提升AI产品界面的易用性与美观度。",
-      "ai_recommendation": "将前沿AI设计规范转化为具体可落地的界面策略，是AI时代设计师的实用参考指南。",
+      "last_seen_at": "2026-05-28T02:07:12.434903Z",
+      "ai_filtered": true,
       "title_original": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！",
       "title_en": null,
       "title_zh": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！",
@@ -586,374 +366,12 @@
       "url": "https://juejin.cn/post/7643033880698421300",
       "published_at": "2026-05-27T02:07:56.484000Z",
       "first_seen_at": "2026-05-27T02:31:36.009261Z",
-      "last_seen_at": "2026-05-27T02:31:36.009261Z",
-      "_tier": 2,
-      "ai_tier": 2,
-      "_source_config": {
-        "id": "figma_official",
-        "name": "Figma Blog",
-        "patterns": [
-          "figma.com/blog",
-          "Figma"
-        ],
-        "reason": "官方博客内容广，只要新功能发布和AI相关教程",
-        "update_frequency": "weekly",
-        "expected_items_per_day": 0.3,
-        "language": "en",
-        "filter_focus": [
-          "新功能发布",
-          "AI功能",
-          "产品更新",
-          "Config大会"
-        ],
-        "exclude_topics": [
-          "招聘",
-          "公司文化",
-          "用户故事"
-        ],
-        "max_items_per_day": 2
-      },
-      "ai_design_relevance": 0.9,
-      "ai_quality_score": 8,
-      "ai_categories": [
-        "AI辅助设计",
-        "设计到代码"
-      ],
-      "ai_target_audience": "关注设计交付效率与一致性的UI/UX设计师和前端开发者",
-      "ai_key_insights": "通过AI自动校验和生成，将Figma设计稿转化为可验证的客户端UI产物，重构了传统走查交付链路，显著提升协作效率与还原度。",
-      "ai_recommendation": "系统化地展示了用AI弥合设计走查与代码交付鸿沟的实战方案，对提升UI还原效率极具参考价值。",
+      "last_seen_at": "2026-05-28T02:07:12.434903Z",
+      "ai_filtered": true,
       "title_original": "从 Figma 走查到 AI 可验证产物：我如何重构客户端 UI 交付链路",
       "title_en": null,
       "title_zh": "从 Figma 走查到 AI 可验证产物：我如何重构客户端 UI 交付链路",
       "title_bilingual": "从 Figma 走查到 AI 可验证产物：我如何重构客户端 UI 交付链路"
-    },
-    {
-      "id": "04b2fcccf4dfc7d532d294d224d8e6ad5e67ecb9",
-      "site_id": "iris",
-      "site_name": "Info Flow",
-      "source": "IT之家 (ITHome)",
-      "title": "新一代华为鸿蒙智家官宣 6 月 1 日发布，主打“全生态 AI 进化”",
-      "url": "https://www.ithome.com/0/955/690.htm",
-      "published_at": "2026-05-27T01:48:49Z",
-      "first_seen_at": "2026-05-27T02:31:36.009261Z",
-      "last_seen_at": "2026-05-27T02:31:36.009261Z",
-      "_tier": 2,
-      "ai_tier": 2,
-      "_source_config": {},
-      "ai_design_relevance": 0.7,
-      "ai_quality_score": 5,
-      "ai_categories": [
-        "智能家居",
-        "AI交互",
-        "系统体验设计"
-      ],
-      "ai_target_audience": "关注华为生态与智能家居体验的UX/UI设计师、产品经理及技术爱好者",
-      "ai_key_insights": "华为鸿蒙智家强调“全生态AI进化”，预示系统层级的主动智能与跨设备无缝协同，可能带来交互范式革新，但发布前具体设计细节有限。",
-      "ai_recommendation": "华为鸿蒙最新AI家居系统官宣，是观察意图驱动交互与全场景设计落地的窗口，值得设计师关注。",
-      "title_original": "新一代华为鸿蒙智家官宣 6 月 1 日发布，主打“全生态 AI 进化”",
-      "title_en": null,
-      "title_zh": "新一代华为鸿蒙智家官宣 6 月 1 日发布，主打“全生态 AI 进化”",
-      "title_bilingual": "新一代华为鸿蒙智家官宣 6 月 1 日发布，主打“全生态 AI 进化”"
-    },
-    {
-      "id": "16a0011f74ee3ab14ee2565e0178007459bef0c9",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "Techmeme",
-      "title": "Q&A with Sundar Pichai about reshaping the information ecosystem with Search changes, putting AI agents in everything, when AI will replace him as CEO, and more (Nilay Patel/The Verge)",
-      "url": "https://www.techmeme.com/260526/p27",
-      "published_at": "2026-05-26T18:30:00Z",
-      "first_seen_at": "2026-05-27T02:31:36.009261Z",
-      "last_seen_at": "2026-05-27T02:31:36.009261Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "the_verge",
-        "name": "The Verge",
-        "patterns": [
-          "theverge.com",
-          "The Verge"
-        ],
-        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 50,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI产品",
-          "设计工具",
-          "创意应用"
-        ],
-        "exclude_topics": [
-          "纯硬件评测",
-          "游戏",
-          "娱乐八卦"
-        ],
-        "max_items_per_day": 50
-      },
-      "ai_design_relevance": 0.8,
-      "ai_quality_score": 8,
-      "ai_categories": [
-        "AI Agents",
-        "Search UX",
-        "Information Ecosystem"
-      ],
-      "ai_target_audience": "UI/UX designers, product managers, and design strategists exploring the future of AI-driven interfaces and search interactions",
-      "ai_key_insights": "Sundar Pichai outlines Google's move toward proactive AI agents that deeply integrate search into daily tasks, hinting at a shift from reactive query-response interfaces to anticipatory, conversational, and ambient experiences that will demand new thinking in interaction design, cross-platform consistency, and trust-building within user flows.",
-      "ai_recommendation": "从Google CEO的视角洞察AI代理与搜索变革趋势，为设计师在打造下一代智能交互与信息体验时提供关键战略方向。",
-      "title_original": "Q&A with Sundar Pichai about reshaping the information ecosystem with Search changes, putting AI agents in everything, when AI will replace him as CEO, and more (Nilay Patel/The Verge)",
-      "title_en": "Q&A with Sundar Pichai about reshaping the information ecosystem with Search changes, putting AI agents in everything, when AI will replace him as CEO, and more (Nilay Patel/The Verge)",
-      "title_zh": "与桑达尔·皮查伊 (Sundar Pichai) 的问答，内容涉及通过搜索变化重塑信息生态系统、将人工智能代理融入到一切事物中、人工智能何时将取代他担任首席执行官等等（Nilay Patel/The Verge）",
-      "title_bilingual": "与桑达尔·皮查伊 (Sundar Pichai) 的问答，内容涉及通过搜索变化重塑信息生态系统、将人工智能代理融入到一切事物中、人工智能何时将取代他担任首席执行官等等（Nilay Patel/The Verge） / Q&A with Sundar Pichai about reshaping the information ecosystem with Search changes, putting AI agents in everything, when AI will replace him as CEO, and more (Nilay Patel/The Verge)"
-    },
-    {
-      "id": "af529aa39ef658c40714c96f4992c21c1bf2377b",
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "www.theverge.com",
-      "title": "优步总裁表示，人工智能方面的支出“越来越难以自圆其说”",
-      "url": "https://www.theverge.com/transportation/937116/uber-ai-investment-hard-to-justify",
-      "published_at": "2026-05-26T15:09:52.248000Z",
-      "first_seen_at": "2026-05-27T02:31:36.009261Z",
-      "last_seen_at": "2026-05-27T02:31:36.009261Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "the_verge",
-        "name": "The Verge",
-        "patterns": [
-          "theverge.com",
-          "The Verge"
-        ],
-        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 50,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI产品",
-          "设计工具",
-          "创意应用"
-        ],
-        "exclude_topics": [
-          "纯硬件评测",
-          "游戏",
-          "娱乐八卦"
-        ],
-        "max_items_per_day": 50
-      },
-      "ai_design_relevance": 0.2,
-      "ai_quality_score": 7,
-      "ai_categories": [
-        "科技商业",
-        "人工智能"
-      ],
-      "ai_target_audience": "科技行业决策者、产品经理、投资人及对AI商业变现感兴趣的设计师",
-      "ai_key_insights": "优步总裁对AI领域的高额支出提出质疑，认为其投资回报难以论证，折射出行业对AI泡沫的冷静反思，强调商业落地与实际价值验证的重要性。",
-      "ai_recommendation": "从商业视角反思AI投入，启发设计师关注工具的实际产出与成本效益，避免盲目追求技术热潮。",
-      "title_original": "优步总裁表示，人工智能方面的支出“越来越难以自圆其说”",
-      "title_en": null,
-      "title_zh": "优步总裁表示，人工智能方面的支出“越来越难以自圆其说”",
-      "title_bilingual": "优步总裁表示，人工智能方面的支出“越来越难以自圆其说”"
-    },
-    {
-      "id": "a43d3f97d1b1ecc78a97edcc0d5dfde6d003108e",
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "source": "www.theverge.com",
-      "title": "Sundar Pichai on AI, the future of search, and what’s happening to the web",
-      "url": "https://www.theverge.com/podcast/936445/sundar-pichai-ai-search-google-zero-youtube-web",
-      "published_at": "2026-05-26T14:00:00Z",
-      "first_seen_at": "2026-05-27T02:31:36.009261Z",
-      "last_seen_at": "2026-05-27T02:31:36.009261Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "the_verge",
-        "name": "The Verge",
-        "patterns": [
-          "theverge.com",
-          "The Verge"
-        ],
-        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 50,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI产品",
-          "设计工具",
-          "创意应用"
-        ],
-        "exclude_topics": [
-          "纯硬件评测",
-          "游戏",
-          "娱乐八卦"
-        ],
-        "max_items_per_day": 50
-      },
-      "ai_design_relevance": 0.9,
-      "ai_quality_score": 8,
-      "ai_categories": [
-        "AI",
-        "Search UX",
-        "Web Design",
-        "Technology Trends"
-      ],
-      "ai_target_audience": "UI/UX designers, product managers, tech strategists, and anyone interested in the intersection of AI and user experience",
-      "ai_key_insights": "Google CEO Sundar Pichai discusses how generative AI is transforming search into a conversational, context-aware experience, the shift from link-based results to direct answers, and the implications for web navigation and content design",
-      "ai_recommendation": "深入探讨AI如何重塑搜索交互与网页信息架构，是把握未来体验设计方向的必读内容。",
-      "title_original": "Sundar Pichai on AI, the future of search, and what’s happening to the web",
-      "title_en": "Sundar Pichai on AI, the future of search, and what’s happening to the web",
-      "title_zh": "Sundar Pichai 谈 AI、搜索的未来及网络的变化",
-      "title_bilingual": "Sundar Pichai 谈 AI、搜索的未来及网络的变化 / Sundar Pichai on AI, the future of search, and what’s happening to the web"
-    },
-    {
-      "id": "4b6723850d73bdbaa5ab4f14cbdd310d7e883567",
-      "site_id": "aihot",
-      "site_name": "AI HOT",
-      "source": "The Verge：AI（RSS）",
-      "title": "Sundar Pichai 谈 AI、搜索的未来及网络的变化",
-      "url": "https://www.theverge.com/podcast/936445/sundar-pichai-ai-search-google-zero-youtube-web",
-      "published_at": "2026-05-26T14:00:00Z",
-      "first_seen_at": "2026-05-27T02:31:36.009261Z",
-      "last_seen_at": "2026-05-27T02:31:36.009261Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "the_verge",
-        "name": "The Verge",
-        "patterns": [
-          "theverge.com",
-          "The Verge"
-        ],
-        "reason": "主流科技媒体，内容广泛，需AI筛选AI+设计相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 50,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI产品",
-          "设计工具",
-          "创意应用"
-        ],
-        "exclude_topics": [
-          "纯硬件评测",
-          "游戏",
-          "娱乐八卦"
-        ],
-        "max_items_per_day": 50
-      },
-      "ai_design_relevance": 0.6,
-      "ai_quality_score": 7,
-      "ai_categories": [
-        "人工智能",
-        "搜索与发现",
-        "科技趋势"
-      ],
-      "ai_target_audience": "关注AI与搜索演进的UI/UX设计师、产品经理及科技爱好者",
-      "ai_key_insights": "Sundar Pichai分享其对AI重塑搜索体验和网络生态的看法，涉及生成式AI对信息检索、内容呈现及用户界面的影响，为设计适应AI时代的交互模式提供战略视角。",
-      "ai_recommendation": "从谷歌CEO视角预判AI搜索变革，助设计师把握交互范式转型方向。",
-      "title_original": "Sundar Pichai 谈 AI、搜索的未来及网络的变化",
-      "title_en": null,
-      "title_zh": "Sundar Pichai 谈 AI、搜索的未来及网络的变化",
-      "title_bilingual": "Sundar Pichai 谈 AI、搜索的未来及网络的变化"
-    },
-    {
-      "id": "2f0eb5f66dca24c06fa0335e15916b1eb45ba25c",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "Wired",
-      "title": "Google Fitbit Air Review: Barely There, Always Running",
-      "url": "https://www.wired.com/review/google-fitbit-air",
-      "published_at": "2026-05-26T13:00:00Z",
-      "first_seen_at": "2026-05-27T02:31:36.009261Z",
-      "last_seen_at": "2026-05-27T02:31:36.009261Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "wired",
-        "name": "Wired",
-        "patterns": [
-          "wired.com",
-          "Wired"
-        ],
-        "reason": "科技文化媒体，需筛选AI+设计深度报道",
-        "update_frequency": "daily",
-        "expected_items_per_day": 20,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI应用",
-          "设计趋势",
-          "创意科技"
-        ],
-        "exclude_topics": [
-          "纯政治",
-          "安全政策",
-          "科学理论"
-        ],
-        "max_items_per_day": 20
-      },
-      "ai_design_relevance": 0.8,
-      "ai_quality_score": 7,
-      "ai_categories": [
-        "UI/UX设计",
-        "产品评测",
-        "可穿戴技术"
-      ],
-      "ai_target_audience": "关注智能硬件体验的UI/UX设计师、产品经理及科技爱好者",
-      "ai_key_insights": "极简硬件形态与无感佩戴体验的平衡拆解；持续后台监测对用户行为改变的潜力与隐私考量；配套App界面信息架构与健康数据可视化的设计得失。",
-      "ai_recommendation": "通过轻量化穿戴设备与持续健康监测的交互设计实例，为设计师揭示了极简终端与复杂数据呈现之间的平衡策略。",
-      "title_original": "Google Fitbit Air Review: Barely There, Always Running",
-      "title_en": "Google Fitbit Air Review: Barely There, Always Running",
-      "title_zh": "谷歌 Fitbit Air 评测：几乎不存在，始终在运行",
-      "title_bilingual": "谷歌 Fitbit Air 评测：几乎不存在，始终在运行 / Google Fitbit Air Review: Barely There, Always Running"
-    },
-    {
-      "id": "981e96529619b2e3184e5ae60aaa5cc5625ef2d0",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "Wired",
-      "title": "I’m a Professional Fact-Checker. AI Is Wrong More Often Than You Think",
-      "url": "https://www.wired.com/story/fact-checking-ai",
-      "published_at": "2026-05-26T10:00:00Z",
-      "first_seen_at": "2026-05-27T02:31:36.009261Z",
-      "last_seen_at": "2026-05-27T02:31:36.009261Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "wired",
-        "name": "Wired",
-        "patterns": [
-          "wired.com",
-          "Wired"
-        ],
-        "reason": "科技文化媒体，需筛选AI+设计深度报道",
-        "update_frequency": "daily",
-        "expected_items_per_day": 20,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI应用",
-          "设计趋势",
-          "创意科技"
-        ],
-        "exclude_topics": [
-          "纯政治",
-          "安全政策",
-          "科学理论"
-        ],
-        "max_items_per_day": 20
-      },
-      "ai_design_relevance": 0.8,
-      "ai_quality_score": 8,
-      "ai_categories": [
-        "AI & Design Ethics",
-        "Content Design",
-        "UX Research & Validation"
-      ],
-      "ai_target_audience": "UI/UX designers, content strategists, and product designers who integrate AI-generated content or conversational interfaces into user experiences",
-      "ai_key_insights": "AI confidently generates plausible-sounding but factually incorrect information (hallucinations), posing serious trust and usability risks in user-facing interfaces; designers must build verification cues, disclaimer patterns, and failure-handling flows to mitigate misinformation spread.",
-      "ai_recommendation": "所有将AI内容嵌入界面的设计师都应阅读——它揭示了「可信性错觉」如何摧毁用户体验，并提供了设计验证护栏的关键思路。",
-      "title_original": "I’m a Professional Fact-Checker. AI Is Wrong More Often Than You Think",
-      "title_en": "I’m a Professional Fact-Checker. AI Is Wrong More Often Than You Think",
-      "title_zh": "我是一名专业的事实核查员。人工智能出错的次数比你想象的要多",
-      "title_bilingual": "我是一名专业的事实核查员。人工智能出错的次数比你想象的要多 / I’m a Professional Fact-Checker. AI Is Wrong More Often Than You Think"
     }
   ],
   "all_mode_data_url": "data/latest-24h-all.json"
