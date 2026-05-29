@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-05-28T02:07:12.434903Z",
+  "generated_at": "2026-05-29T02:10:53.053815Z",
   "window_hours": 24,
-  "total_items": 4,
-  "total_items_ai_raw": 4,
-  "total_items_raw": 3307,
-  "total_items_all_mode": 3139,
+  "total_items": 0,
+  "total_items_ai_raw": 0,
+  "total_items_raw": 2271,
+  "total_items_all_mode": 2154,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
-    "total": 4,
+    "total": 0,
     "tier_0": 0,
-    "tier_1": 3,
-    "tier_2": 1,
+    "tier_1": 0,
+    "tier_2": 0,
     "blacklisted": 0,
-    "items_before_filter": 2244,
-    "items_after_filter": 4,
-    "filter_pass_rate": "0.2%"
+    "items_before_filter": 2271,
+    "items_after_filter": 0,
+    "filter_pass_rate": "0.0%"
   },
-  "archive_total": 14513,
+  "archive_total": 16805,
   "site_count": 14,
-  "source_count": 4,
+  "source_count": 0,
   "site_stats": [
     {
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "count": 1,
-      "raw_count": 569
-    },
-    {
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "count": 1,
-      "raw_count": 223
+      "site_id": "newsnow",
+      "site_name": "NewsNow",
+      "count": 0,
+      "raw_count": 73
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
-      "count": 1,
-      "raw_count": 1976
-    },
-    {
-      "site_id": "newsnow",
-      "site_name": "NewsNow",
-      "count": 1,
-      "raw_count": 84
+      "count": 0,
+      "raw_count": 1003
     },
     {
       "site_id": "aibase",
       "site_name": "AIbase",
       "count": 0,
-      "raw_count": 40
+      "raw_count": 20
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "count": 0,
-      "raw_count": 317
+      "raw_count": 283
+    },
+    {
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "count": 0,
+      "raw_count": 556
+    },
+    {
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "count": 0,
+      "raw_count": 233
     },
     {
       "site_id": "zeli",
@@ -67,25 +67,25 @@
       "site_id": "aihot",
       "site_name": "AI HOT",
       "count": 0,
-      "raw_count": 30
+      "raw_count": 38
     },
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "count": 0,
-      "raw_count": 3
+      "raw_count": 5
     },
     {
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
       "count": 0,
-      "raw_count": 6
+      "raw_count": 8
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "count": 0,
-      "raw_count": 9
+      "raw_count": 2
     },
     {
       "site_id": "aibreakfast",
@@ -106,273 +106,7 @@
       "raw_count": 0
     }
   ],
-  "items": [
-    {
-      "id": "ded79d216880bf5cde8b7021708d68a60b096288",
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "techcrunch.com",
-      "title": "科技公司CEO们显然正饱受人工智能妄想症的困扰",
-      "url": "https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis",
-      "published_at": "2026-05-27T17:17:49.317000Z",
-      "first_seen_at": "2026-05-28T02:07:12.434903Z",
-      "last_seen_at": "2026-05-28T02:07:12.434903Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "techcrunch",
-        "name": "TechCrunch",
-        "patterns": [
-          "techcrunch.com",
-          "TechCrunch"
-        ],
-        "reason": "创投科技媒体，需筛选AI创业、产品相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 30,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI创业",
-          "新产品发布",
-          "设计工具融资"
-        ],
-        "exclude_topics": [
-          "纯金融",
-          "加密货币",
-          "政策法规"
-        ],
-        "max_items_per_day": 30
-      },
-      "ai_design_relevance": 0.7,
-      "ai_quality_score": 6,
-      "ai_categories": [
-        "人工智能",
-        "产品思维",
-        "批判性分析"
-      ],
-      "ai_target_audience": "关注AI产品落地的UI/UX设计师、产品经理及对科技行业虚火保持警惕的从业者",
-      "ai_key_insights": "文章揭示部分科技公司CEO对AI能力的过度幻想，导致产品设计脱离用户真实需求，提醒设计师警惕高层盲目跟风，回归以人为本的体验设计。",
-      "ai_recommendation": "用真实案例警示AI设计中的妄想症，帮助设计师在狂热中保持清醒，聚焦务实体验。",
-      "title_original": "科技公司CEO们显然正饱受人工智能妄想症的困扰",
-      "title_en": null,
-      "title_zh": "科技公司CEO们显然正饱受人工智能妄想症的困扰",
-      "title_bilingual": "科技公司CEO们显然正饱受人工智能妄想症的困扰"
-    },
-    {
-      "id": "679d53333bc68edcaf07359e2a51ffa920dc7492",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "TechCrunch",
-      "title": "Spotify now lets you ‘clip’ moments from your favorite podcast",
-      "url": "https://techcrunch.com/2026/05/27/spotify-now-lets-you-clip-moments-from-your-favorite-podcast",
-      "published_at": "2026-05-27T14:05:37Z",
-      "first_seen_at": "2026-05-28T02:07:12.434903Z",
-      "last_seen_at": "2026-05-28T02:07:12.434903Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "techcrunch",
-        "name": "TechCrunch",
-        "patterns": [
-          "techcrunch.com",
-          "TechCrunch"
-        ],
-        "reason": "创投科技媒体，需筛选AI创业、产品相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 30,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI创业",
-          "新产品发布",
-          "设计工具融资"
-        ],
-        "exclude_topics": [
-          "纯金融",
-          "加密货币",
-          "政策法规"
-        ],
-        "max_items_per_day": 30
-      },
-      "ai_design_relevance": 0.9,
-      "ai_quality_score": 7,
-      "ai_categories": [
-        "Interaction Design",
-        "Audio UX",
-        "Product Design"
-      ],
-      "ai_target_audience": "UI/UX designers and product managers working on content-sharing features, audio players, or social media integrations",
-      "ai_key_insights": "Spotify's new clip feature lets users save and share podcast snippets, highlighting interaction patterns around audio waveform selection, preview, and social sharing. The design balances simplicity with powerful sharing options, offering lessons in micro-interaction design, accessibility, and catering to short-form consumption trends.",
-      "ai_recommendation": "深入剖析了音频片段截取与分享的交互细节，为设计师提供了声音界面与社交功能融合的实战参考，极具启发性。",
-      "title_original": "Spotify now lets you ‘clip’ moments from your favorite podcast",
-      "title_en": "Spotify now lets you ‘clip’ moments from your favorite podcast",
-      "title_zh": "Spotify 现在可以让您从您最喜爱的播客中“剪辑”精彩瞬间",
-      "title_bilingual": "Spotify 现在可以让您从您最喜爱的播客中“剪辑”精彩瞬间 / Spotify now lets you ‘clip’ moments from your favorite podcast"
-    },
-    {
-      "id": "83835d862be5bee787b7b6436067c0c0b3e704c9",
-      "site_id": "tophub",
-      "site_name": "TopHub",
-      "source": "优设网 · 每日热文榜单",
-      "title": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！",
-      "url": "https://www.uisdc.com/claude-design-2",
-      "published_at": null,
-      "first_seen_at": "2026-05-27T02:31:36.009261Z",
-      "last_seen_at": "2026-05-28T02:07:12.434903Z",
-      "ai_filtered": true,
-      "title_original": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！",
-      "title_en": null,
-      "title_zh": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！",
-      "title_bilingual": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！"
-    },
-    {
-      "id": "57f2904687b874fb9c87c89a4c8563384f67db7c",
-      "site_id": "newsnow",
-      "site_name": "NewsNow",
-      "source": "juejin",
-      "title": "从 Figma 走查到 AI 可验证产物：我如何重构客户端 UI 交付链路",
-      "url": "https://juejin.cn/post/7643033880698421300",
-      "published_at": "2026-05-27T02:07:56.484000Z",
-      "first_seen_at": "2026-05-27T02:31:36.009261Z",
-      "last_seen_at": "2026-05-28T02:07:12.434903Z",
-      "ai_filtered": true,
-      "title_original": "从 Figma 走查到 AI 可验证产物：我如何重构客户端 UI 交付链路",
-      "title_en": null,
-      "title_zh": "从 Figma 走查到 AI 可验证产物：我如何重构客户端 UI 交付链路",
-      "title_bilingual": "从 Figma 走查到 AI 可验证产物：我如何重构客户端 UI 交付链路"
-    }
-  ],
-  "items_ai": [
-    {
-      "id": "ded79d216880bf5cde8b7021708d68a60b096288",
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "techcrunch.com",
-      "title": "科技公司CEO们显然正饱受人工智能妄想症的困扰",
-      "url": "https://techcrunch.com/2026/05/27/tech-ceos-are-apparently-suffering-from-ai-psychosis",
-      "published_at": "2026-05-27T17:17:49.317000Z",
-      "first_seen_at": "2026-05-28T02:07:12.434903Z",
-      "last_seen_at": "2026-05-28T02:07:12.434903Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "techcrunch",
-        "name": "TechCrunch",
-        "patterns": [
-          "techcrunch.com",
-          "TechCrunch"
-        ],
-        "reason": "创投科技媒体，需筛选AI创业、产品相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 30,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI创业",
-          "新产品发布",
-          "设计工具融资"
-        ],
-        "exclude_topics": [
-          "纯金融",
-          "加密货币",
-          "政策法规"
-        ],
-        "max_items_per_day": 30
-      },
-      "ai_design_relevance": 0.7,
-      "ai_quality_score": 6,
-      "ai_categories": [
-        "人工智能",
-        "产品思维",
-        "批判性分析"
-      ],
-      "ai_target_audience": "关注AI产品落地的UI/UX设计师、产品经理及对科技行业虚火保持警惕的从业者",
-      "ai_key_insights": "文章揭示部分科技公司CEO对AI能力的过度幻想，导致产品设计脱离用户真实需求，提醒设计师警惕高层盲目跟风，回归以人为本的体验设计。",
-      "ai_recommendation": "用真实案例警示AI设计中的妄想症，帮助设计师在狂热中保持清醒，聚焦务实体验。",
-      "title_original": "科技公司CEO们显然正饱受人工智能妄想症的困扰",
-      "title_en": null,
-      "title_zh": "科技公司CEO们显然正饱受人工智能妄想症的困扰",
-      "title_bilingual": "科技公司CEO们显然正饱受人工智能妄想症的困扰"
-    },
-    {
-      "id": "679d53333bc68edcaf07359e2a51ffa920dc7492",
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "source": "TechCrunch",
-      "title": "Spotify now lets you ‘clip’ moments from your favorite podcast",
-      "url": "https://techcrunch.com/2026/05/27/spotify-now-lets-you-clip-moments-from-your-favorite-podcast",
-      "published_at": "2026-05-27T14:05:37Z",
-      "first_seen_at": "2026-05-28T02:07:12.434903Z",
-      "last_seen_at": "2026-05-28T02:07:12.434903Z",
-      "_tier": 1,
-      "ai_tier": 1,
-      "_source_config": {
-        "id": "techcrunch",
-        "name": "TechCrunch",
-        "patterns": [
-          "techcrunch.com",
-          "TechCrunch"
-        ],
-        "reason": "创投科技媒体，需筛选AI创业、产品相关",
-        "update_frequency": "hourly",
-        "expected_items_per_day": 30,
-        "language": "en",
-        "ai_filter_focus": [
-          "AI创业",
-          "新产品发布",
-          "设计工具融资"
-        ],
-        "exclude_topics": [
-          "纯金融",
-          "加密货币",
-          "政策法规"
-        ],
-        "max_items_per_day": 30
-      },
-      "ai_design_relevance": 0.9,
-      "ai_quality_score": 7,
-      "ai_categories": [
-        "Interaction Design",
-        "Audio UX",
-        "Product Design"
-      ],
-      "ai_target_audience": "UI/UX designers and product managers working on content-sharing features, audio players, or social media integrations",
-      "ai_key_insights": "Spotify's new clip feature lets users save and share podcast snippets, highlighting interaction patterns around audio waveform selection, preview, and social sharing. The design balances simplicity with powerful sharing options, offering lessons in micro-interaction design, accessibility, and catering to short-form consumption trends.",
-      "ai_recommendation": "深入剖析了音频片段截取与分享的交互细节，为设计师提供了声音界面与社交功能融合的实战参考，极具启发性。",
-      "title_original": "Spotify now lets you ‘clip’ moments from your favorite podcast",
-      "title_en": "Spotify now lets you ‘clip’ moments from your favorite podcast",
-      "title_zh": "Spotify 现在可以让您从您最喜爱的播客中“剪辑”精彩瞬间",
-      "title_bilingual": "Spotify 现在可以让您从您最喜爱的播客中“剪辑”精彩瞬间 / Spotify now lets you ‘clip’ moments from your favorite podcast"
-    },
-    {
-      "id": "83835d862be5bee787b7b6436067c0c0b3e704c9",
-      "site_id": "tophub",
-      "site_name": "TopHub",
-      "source": "优设网 · 每日热文榜单",
-      "title": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！",
-      "url": "https://www.uisdc.com/claude-design-2",
-      "published_at": null,
-      "first_seen_at": "2026-05-27T02:31:36.009261Z",
-      "last_seen_at": "2026-05-28T02:07:12.434903Z",
-      "ai_filtered": true,
-      "title_original": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！",
-      "title_en": null,
-      "title_zh": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！",
-      "title_bilingual": "掌握7条Claude Design设计规范，提升AI+UI界面产出质量！"
-    },
-    {
-      "id": "57f2904687b874fb9c87c89a4c8563384f67db7c",
-      "site_id": "newsnow",
-      "site_name": "NewsNow",
-      "source": "juejin",
-      "title": "从 Figma 走查到 AI 可验证产物：我如何重构客户端 UI 交付链路",
-      "url": "https://juejin.cn/post/7643033880698421300",
-      "published_at": "2026-05-27T02:07:56.484000Z",
-      "first_seen_at": "2026-05-27T02:31:36.009261Z",
-      "last_seen_at": "2026-05-28T02:07:12.434903Z",
-      "ai_filtered": true,
-      "title_original": "从 Figma 走查到 AI 可验证产物：我如何重构客户端 UI 交付链路",
-      "title_en": null,
-      "title_zh": "从 Figma 走查到 AI 可验证产物：我如何重构客户端 UI 交付链路",
-      "title_bilingual": "从 Figma 走查到 AI 可验证产物：我如何重构客户端 UI 交付链路"
-    }
-  ],
+  "items": [],
+  "items_ai": [],
   "all_mode_data_url": "data/latest-24h-all.json"
 }
