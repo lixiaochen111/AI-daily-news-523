@@ -1,49 +1,73 @@
 {
-  "generated_at": "2026-08-24T00:40:27.581926Z",
+  "generated_at": "2026-08-25T00:40:04.166494Z",
   "window_hours": 24,
-  "total_items": 1,
-  "total_items_ai_raw": 1,
-  "total_items_raw": 2752,
-  "total_items_all_mode": 2600,
+  "total_items": 0,
+  "total_items_ai_raw": 0,
+  "total_items_raw": 3032,
+  "total_items_all_mode": 2835,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
-    "total": 1,
-    "tier_0": 1,
+    "total": 0,
+    "tier_0": 0,
     "tier_1": 0,
     "tier_2": 0,
     "blacklisted": 0,
-    "items_before_filter": 1827,
-    "items_after_filter": 1,
-    "filter_pass_rate": "0.1%"
+    "items_before_filter": 2086,
+    "items_after_filter": 0,
+    "filter_pass_rate": "0.0%"
   },
-  "archive_total": 47629,
+  "archive_total": 47499,
   "site_count": 14,
-  "source_count": 1,
+  "source_count": 0,
   "site_stats": [
-    {
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "count": 1,
-      "raw_count": 423
-    },
-    {
-      "site_id": "newsnow",
-      "site_name": "NewsNow",
-      "count": 0,
-      "raw_count": 145
-    },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "count": 0,
-      "raw_count": 1764
+      "raw_count": 1864
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "count": 0,
-      "raw_count": 230
+      "raw_count": 237
+    },
+    {
+      "site_id": "newsnow",
+      "site_name": "NewsNow",
+      "count": 0,
+      "raw_count": 121
+    },
+    {
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "count": 0,
+      "raw_count": 521
+    },
+    {
+      "site_id": "techurls",
+      "site_name": "TechURLs",
+      "count": 0,
+      "raw_count": 211
+    },
+    {
+      "site_id": "zeli",
+      "site_name": "Zeli",
+      "count": 0,
+      "raw_count": 50
+    },
+    {
+      "site_id": "aibase",
+      "site_name": "AIbase",
+      "count": 0,
+      "raw_count": 20
+    },
+    {
+      "site_id": "aihot",
+      "site_name": "AI HOT",
+      "count": 0,
+      "raw_count": 4
     },
     {
       "site_id": "official_ai",
@@ -52,28 +76,10 @@
       "raw_count": 1
     },
     {
-      "site_id": "techurls",
-      "site_name": "TechURLs",
-      "count": 0,
-      "raw_count": 149
-    },
-    {
-      "site_id": "zeli",
-      "site_name": "Zeli",
-      "count": 0,
-      "raw_count": 28
-    },
-    {
-      "site_id": "aihot",
-      "site_name": "AI HOT",
-      "count": 0,
-      "raw_count": 2
-    },
-    {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "count": 0,
-      "raw_count": 10
+      "raw_count": 3
     },
     {
       "site_id": "aibreakfast",
@@ -94,81 +100,13 @@
       "raw_count": 0
     },
     {
-      "site_id": "aibase",
-      "site_name": "AIbase",
-      "count": 0,
-      "raw_count": 0
-    },
-    {
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
       "count": 0,
       "raw_count": 0
     }
   ],
-  "items": [
-    {
-      "id": "226a7bc2d48f87b8258c0e8c3daf8491b1f89b6f",
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "tympanus.net",
-      "title": "SVG 滤镜效果：使用 创建纹理 (2019)",
-      "url": "https://tympanus.net/codrops/2019/02/19/svg-filter-effects-creating-texture-with-feturbulence",
-      "published_at": "2026-08-23T22:45:12.807000Z",
-      "first_seen_at": "2026-08-24T00:40:27.581926Z",
-      "last_seen_at": "2026-08-24T00:40:27.581926Z",
-      "_tier": 0,
-      "_source_config": {
-        "id": "codrops",
-        "name": "Codrops",
-        "patterns": [
-          "tympanus.net/codrops",
-          "Codrops"
-        ],
-        "reason": "创意前端设计，编辑精选高质量案例",
-        "update_frequency": "weekly",
-        "expected_items_per_day": 0.4,
-        "language": "en"
-      },
-      "ai_tier": 0,
-      "ai_must_publish": true,
-      "title_original": "SVG 滤镜效果：使用 创建纹理 (2019)",
-      "title_en": null,
-      "title_zh": "SVG 滤镜效果：使用 创建纹理 (2019)",
-      "title_bilingual": "SVG 滤镜效果：使用 创建纹理 (2019)"
-    }
-  ],
-  "items_ai": [
-    {
-      "id": "226a7bc2d48f87b8258c0e8c3daf8491b1f89b6f",
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "source": "tympanus.net",
-      "title": "SVG 滤镜效果：使用 创建纹理 (2019)",
-      "url": "https://tympanus.net/codrops/2019/02/19/svg-filter-effects-creating-texture-with-feturbulence",
-      "published_at": "2026-08-23T22:45:12.807000Z",
-      "first_seen_at": "2026-08-24T00:40:27.581926Z",
-      "last_seen_at": "2026-08-24T00:40:27.581926Z",
-      "_tier": 0,
-      "_source_config": {
-        "id": "codrops",
-        "name": "Codrops",
-        "patterns": [
-          "tympanus.net/codrops",
-          "Codrops"
-        ],
-        "reason": "创意前端设计，编辑精选高质量案例",
-        "update_frequency": "weekly",
-        "expected_items_per_day": 0.4,
-        "language": "en"
-      },
-      "ai_tier": 0,
-      "ai_must_publish": true,
-      "title_original": "SVG 滤镜效果：使用 创建纹理 (2019)",
-      "title_en": null,
-      "title_zh": "SVG 滤镜效果：使用 创建纹理 (2019)",
-      "title_bilingual": "SVG 滤镜效果：使用 创建纹理 (2019)"
-    }
-  ],
+  "items": [],
+  "items_ai": [],
   "all_mode_data_url": "data/latest-24h-all.json"
 }
