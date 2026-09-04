@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-03T02:03:19.545185Z",
+  "generated_at": "2026-09-04T01:59:19.546293Z",
   "sites": [
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "ok": true,
-      "item_count": 195,
-      "duration_ms": 3019,
+      "item_count": 189,
+      "duration_ms": 2430,
       "error": null
     },
     {
@@ -14,15 +14,15 @@
       "site_name": "AI Breakfast",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 173,
+      "duration_ms": 40,
       "error": "403 Client Error: Forbidden for url: https://r.jina.ai/https://aibreakfast.beehiiv.com/"
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "ok": true,
-      "item_count": 39,
-      "duration_ms": 79,
+      "item_count": 30,
+      "duration_ms": 214,
       "error": null
     },
     {
@@ -30,7 +30,7 @@
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 462,
+      "duration_ms": 481,
       "error": null
     },
     {
@@ -38,15 +38,15 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 906,
+      "duration_ms": 620,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 341,
-      "duration_ms": 15288,
+      "item_count": 343,
+      "duration_ms": 15254,
       "error": null
     },
     {
@@ -54,23 +54,23 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 613,
+      "duration_ms": 653,
       "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 3047,
-      "duration_ms": 1572,
+      "item_count": 3036,
+      "duration_ms": 1638,
       "error": null
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "ok": true,
-      "item_count": 79,
-      "duration_ms": 774,
+      "item_count": 71,
+      "duration_ms": 697,
       "error": null
     },
     {
@@ -78,15 +78,15 @@
       "site_name": "AI HubToday",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 4981,
-      "error": "HTTPSConnectionPool(host='ai.hubtoday.app', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='ai.hubtoday.app', port=443): Failed to resolve 'ai.hubtoday.app' ([Errno -2] Name or service not known)\"))"
+      "duration_ms": 5352,
+      "error": "HTTPSConnectionPool(host='ai.hubtoday.app', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
     },
     {
       "site_id": "aibase",
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 6184,
+      "duration_ms": 906,
       "error": null
     },
     {
@@ -94,7 +94,7 @@
       "site_name": "AI HOT",
       "ok": true,
       "item_count": 50,
-      "duration_ms": 1191,
+      "duration_ms": 1219,
       "error": null
     },
     {
@@ -102,7 +102,7 @@
       "site_name": "NewsNow",
       "ok": true,
       "item_count": 129,
-      "duration_ms": 1320,
+      "duration_ms": 891,
       "error": null
     },
     {
@@ -111,7 +111,7 @@
       "ok": true,
       "partial_failures": 1,
       "item_count": 10,
-      "duration_ms": 12444,
+      "duration_ms": 12217,
       "error": "1 feeds failed",
       "feed_count": 2,
       "effective_feed_count": 2,
@@ -127,8 +127,8 @@
     "aihubtoday"
   ],
   "zero_item_sites": [],
-  "fetched_raw_items": 4105,
-  "items_before_topic_filter": 2138,
+  "fetched_raw_items": 4077,
+  "items_before_topic_filter": 3170,
   "items_in_24h": 0,
   "rss_opml": {
     "enabled": true,
@@ -151,7 +151,7 @@
         "effective_feed_url": "https://rsshub.pseudoyu.com/twitter/user/ryolu",
         "ok": false,
         "item_count": 0,
-        "duration_ms": 12294,
+        "duration_ms": 12056,
         "error": "HTTPSConnectionPool(host='rsshub.pseudoyu.com', port=443): Read timed out. (read timeout=12)",
         "skipped": false,
         "skip_reason": null,
@@ -166,7 +166,7 @@
         "effective_feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 150,
+        "duration_ms": 161,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -195,6 +195,6 @@
     "effective_result_cap": 20,
     "estimated_max_cost_usd_per_run": 0.1,
     "run_utc_hour": 0,
-    "generated_date_utc": "2026-09-03"
+    "generated_date_utc": "2026-09-04"
   }
 }
