@@ -1,85 +1,85 @@
 {
-  "generated_at": "2026-11-26T05:56:50.539352Z",
+  "generated_at": "2026-11-27T05:50:49.226673Z",
   "window_hours": 24,
-  "total_items": 0,
-  "total_items_ai_raw": 0,
-  "total_items_raw": 2864,
-  "total_items_all_mode": 2651,
+  "total_items": 1,
+  "total_items_ai_raw": 1,
+  "total_items_raw": 2443,
+  "total_items_all_mode": 2296,
   "topic_filter": "ai_relevance_scoring_v0_4",
   "ai_relevance_threshold": 0.65,
   "ai_filter_stats": {
-    "total": 0,
-    "tier_0": 0,
+    "total": 1,
+    "tier_0": 1,
     "tier_1": 0,
     "tier_2": 0,
     "blacklisted": 0,
-    "items_before_filter": 1941,
-    "items_after_filter": 0,
-    "filter_pass_rate": "0.0%"
+    "items_before_filter": 1571,
+    "items_after_filter": 1,
+    "filter_pass_rate": "0.1%"
   },
-  "archive_total": 44364,
+  "archive_total": 43877,
   "site_count": 14,
-  "source_count": 0,
+  "source_count": 1,
   "site_stats": [
     {
-      "site_id": "tophub",
-      "site_name": "TopHub",
-      "count": 0,
-      "raw_count": 1718
-    },
-    {
-      "site_id": "aibase",
-      "site_name": "AIbase",
-      "count": 0,
-      "raw_count": 38
-    },
-    {
-      "site_id": "buzzing",
-      "site_name": "Buzzing",
-      "count": 0,
-      "raw_count": 487
+      "site_id": "zeli",
+      "site_name": "Zeli",
+      "count": 1,
+      "raw_count": 50
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "count": 0,
-      "raw_count": 88
+      "raw_count": 68
     },
     {
-      "site_id": "iris",
-      "site_name": "Info Flow",
+      "site_id": "tophub",
+      "site_name": "TopHub",
       "count": 0,
-      "raw_count": 246
+      "raw_count": 1672
+    },
+    {
+      "site_id": "aibase",
+      "site_name": "AIbase",
+      "count": 0,
+      "raw_count": 35
+    },
+    {
+      "site_id": "buzzing",
+      "site_name": "Buzzing",
+      "count": 0,
+      "raw_count": 453
     },
     {
       "site_id": "techurls",
       "site_name": "TechURLs",
       "count": 0,
-      "raw_count": 215
-    },
-    {
-      "site_id": "official_ai",
-      "site_name": "Official AI Updates",
-      "count": 0,
-      "raw_count": 5
-    },
-    {
-      "site_id": "zeli",
-      "site_name": "Zeli",
-      "count": 0,
-      "raw_count": 50
+      "raw_count": 157
     },
     {
       "site_id": "aihot",
       "site_name": "AI HOT",
       "count": 0,
-      "raw_count": 12
+      "raw_count": 5
+    },
+    {
+      "site_id": "official_ai",
+      "site_name": "Official AI Updates",
+      "count": 0,
+      "raw_count": 1
     },
     {
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
       "count": 0,
-      "raw_count": 5
+      "raw_count": 1
+    },
+    {
+      "site_id": "followbuilders",
+      "site_name": "Follow Builders",
+      "count": 0,
+      "raw_count": 1
     },
     {
       "site_id": "aibreakfast",
@@ -88,8 +88,8 @@
       "raw_count": 0
     },
     {
-      "site_id": "followbuilders",
-      "site_name": "Follow Builders",
+      "site_id": "iris",
+      "site_name": "Info Flow",
       "count": 0,
       "raw_count": 0
     },
@@ -106,7 +106,69 @@
       "raw_count": 0
     }
   ],
-  "items": [],
-  "items_ai": [],
+  "items": [
+    {
+      "id": "dd98fb0fbd1c5477af38a9ef9d7b5871914cce34",
+      "site_id": "zeli",
+      "site_name": "Zeli",
+      "source": "Hacker News · 24h最热",
+      "title": "Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar",
+      "url": "https://github.com/rxliuli/sim-drop",
+      "published_at": "2026-11-26T16:51:38Z",
+      "first_seen_at": "2026-11-27T05:50:49.226673Z",
+      "last_seen_at": "2026-11-27T05:50:49.226673Z",
+      "_tier": 0,
+      "_source_config": {
+        "id": "sidebar",
+        "name": "Sidebar",
+        "patterns": [
+          "sidebar.io",
+          "Sidebar"
+        ],
+        "reason": "每日5个最佳设计链接，人工筛选",
+        "update_frequency": "daily",
+        "expected_items_per_day": 1,
+        "language": "en"
+      },
+      "ai_tier": 0,
+      "ai_must_publish": true,
+      "title_original": "Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar",
+      "title_en": "Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar",
+      "title_zh": "显示 HN：SimDrop – 在 macOS Finder 侧边栏中运行 iOS 模拟器",
+      "title_bilingual": "显示 HN：SimDrop – 在 macOS Finder 侧边栏中运行 iOS 模拟器 / Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar"
+    }
+  ],
+  "items_ai": [
+    {
+      "id": "dd98fb0fbd1c5477af38a9ef9d7b5871914cce34",
+      "site_id": "zeli",
+      "site_name": "Zeli",
+      "source": "Hacker News · 24h最热",
+      "title": "Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar",
+      "url": "https://github.com/rxliuli/sim-drop",
+      "published_at": "2026-11-26T16:51:38Z",
+      "first_seen_at": "2026-11-27T05:50:49.226673Z",
+      "last_seen_at": "2026-11-27T05:50:49.226673Z",
+      "_tier": 0,
+      "_source_config": {
+        "id": "sidebar",
+        "name": "Sidebar",
+        "patterns": [
+          "sidebar.io",
+          "Sidebar"
+        ],
+        "reason": "每日5个最佳设计链接，人工筛选",
+        "update_frequency": "daily",
+        "expected_items_per_day": 1,
+        "language": "en"
+      },
+      "ai_tier": 0,
+      "ai_must_publish": true,
+      "title_original": "Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar",
+      "title_en": "Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar",
+      "title_zh": "显示 HN：SimDrop – 在 macOS Finder 侧边栏中运行 iOS 模拟器",
+      "title_bilingual": "显示 HN：SimDrop – 在 macOS Finder 侧边栏中运行 iOS 模拟器 / Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar"
+    }
+  ],
   "all_mode_data_url": "data/latest-24h-all.json"
 }
